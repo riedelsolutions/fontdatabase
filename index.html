@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FontDatabase</title>
+	<link rel = "stylesheet" href = "styles.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&amp;subset=latin-ext" rel="stylesheet">
+	<meta name  = "viewport" content= "width =device-width, initial-scale =1.0">
+</head>
+
+<body>
+
+	<nav>
+		<ul>
+			<li>How does it work?</li>
+		</ul>
+	</nav>
+
+	<h1>FontDatabase</h1>
+
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+		<script>
+			var fontCharacteristic = prompt("I want a font more: " ,"");
+			var fontInput = prompt("than","");
+
+		var seriousnessArray = ["Helvetica", "Book Antiqua", "Open Sans", "Courier", "Arial", "Comic Sans"];
+
+		var result = [];
+		var index;
+		var indexOfNewArray = 0;
+
+		//if the font is in the list of most to least serious fonts, we get the index. Else, we tell the user we have no suggestions.
+		if ($.inArray(fontInput, seriousnessArray)){
+
+			for (var i = 0; i < seriousnessArray.length; i++){
+				if (seriousnessArray[i] == fontInput){
+					index = i;
+				}else{
+
+				}
+			}
+		} else{
+			document.write("Sorry, we could not find fonts more " + fontCharacteristic + " than " + fontInput + ".");
+		}
+
+		//We then get the fonts who are more or less of what the user want it, and create a resulting array with it
+
+		for (var i =index + 1; i < seriousnessArray.length; i++){
+			result[indexOfNewArray] = seriousnessArray[i];
+			indexOfNewArray++;
+		}
+
+		//we print the suggestions
+		document.write(result);
+
+		</script>
+</body>
+</html>
