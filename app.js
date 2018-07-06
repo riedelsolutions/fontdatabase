@@ -1,4 +1,5 @@
 
+	
 		var fontCharacteristic = prompt("I want a font more: " ,"");
 		var fontInput = prompt("than","");
 
@@ -42,3 +43,22 @@
 
 
 		seriousnessResults();  //prints them
+
+
+		/*
+		PSEUDOCODE
+
+		function obtainResult(){
+			if (user chooses "more serious than"){
+				seriousnessResults();
+			} else if (user chooses "more informal than"){
+				informalResults();
+			} else if (user chooses "more serif than"){
+				serifResults();
+			} else if (user chooses "less serif than"){
+				sansSerifResults();
+			}
+
+		}	
+
+		*/
