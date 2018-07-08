@@ -6,6 +6,8 @@
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&amp;subset=latin-ext" rel="stylesheet">
 	<meta name  = "viewport" content= "width =device-width, initial-scale =1.0">
+	<!--add favicon-->
+
 </head>
 
 <body>
@@ -25,10 +27,36 @@
 	<h2>A designer's right hand.</h2>
 	</div>
 
-	<p>
+	<!--scripts-->
 	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src = "app.js"></script>
-</p>
+	
+	<!--Content-->
+	<div id = "userInput">
+	<p id = "interface"> 
+		I want a font more
+		<select id="characteristic" onchange="setCharacteristic()">
+			<option selected disabled>Choose a characteristic</option>
+  	  		<option value= "formal">formal</option>
+   	 		<option value = "informal">informal</option>
+  	  		<option value = "serif">serif</option>
+  	  		<option value = "sansserif">minimal</option>
+		</select>
+		 than 
+		<select id = "font" onchange="setFont()">
+			<option selected disabled>Choose a font</option>
+			<option value ="Comic Sans">Comic Sans</option>
+			<option value = "Arial">Arial</option>
+			<option value = "Courier">Courier</option>
+			<option value = "Open Sans">Open Sans</option>
+			<option value = "Book Antiqua">Book Antiqua</option>
+			<option value = "Helvetica">Helvetica</option>
+		</select>
+			<button class = "goButton" onclick="algo()">Go!</button>
+	</p>
+	<div id = "resultDiv">
+	</div>
+	</div>
 
 <footer>
 	<a href = "https://www.twitter.com/themcomp"><img src = "images/twitterbn.png" id = "twitter"></a> or <a href = "mailto:contactthemcompany@gmail.com">contact us.</a>
