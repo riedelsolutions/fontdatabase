@@ -1,4 +1,3 @@
-	
 //Setting up the variables
 		var fontCharacteristic;
 		var fontInput;
@@ -16,27 +15,28 @@
 		}
 
 //font arrays
-		var seriousnessArray = ["none","Comic Sans", "Arial", "Courier", "Open Sans", "Book Antiqua", "Helvetica"];
+		var seriousnessArray = ["none", "Comic Sans", "Arial", "Courier", "Open Sans", "Book Antiqua", "Helvetica"];
 		var informalArray = ["none", "Helvetica", "Book Antiqua", "Open Sans", "Courier", "Arial", "Comic Sans"];
 		var serifArray = [];
 		var sansSerifArray = [];
 
 //Helper variables
-		var result = []; //Array with the results(output).
+		//var result = []; //Array with the results(output).
 		var index;		//Index of where in the original array the results list should start.
 		var indexOfNewArray = 0; //Helps initialize and fill the result[] array.
 
 
 
 //algorithm
-
+		
 		//noneFound(); runs if there are no fonts to be suggested.
 		function noneFound(){ 
 			var noResults = "Sorry, we could not find fonts more " + fontCharacteristic +  " than " + fontInput + ".";
    			var newParagraph = document.createElement('p');
    			newParagraph.textContent = noResults;
    			document.getElementById("resultDiv").appendChild(newParagraph);
-    }
+   			
+    	}
 
 		//createResultsArray(arrayType); creates the new array with the results -> Creates the output.
 		function createResultsArray(arrayType){
@@ -58,8 +58,10 @@
 
 			noneFound();
 
+
 			} else { // if it isn't, it prints the rest
-					/* OLD document.write("Fonts more " + fontCharacteristic +  " than " + fontInput + ": ");*/
+
+					var result = [];
 					for (var i = index + 1; i < chosenArray.length; i++){
 					result[indexOfNewArray] = chosenArray[i];
 					indexOfNewArray++;
@@ -69,6 +71,10 @@
    			var paragraph = document.createElement('p');
    			paragraph.textContent = fontsMoreEtc;
    			document.getElementById("resultDiv").appendChild(paragraph);
+
+  
+   			result = 0;
+   			indexOfNewArray = 0;
     }
 				
 			
