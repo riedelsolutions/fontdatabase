@@ -52,10 +52,33 @@ a{
 	color:white;
 }
 
-p{
+p,.goButton{
 	clear:both;
+	color:white;
 }
 
+#userInput{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 200px;
+	max-width: 100%;
+
+}
+
+.goButton{
+	max-width: 100px;
+	background-color: purple;
+	padding: 20px;
+	border: none;
+	margin-left: 30px;
+	border-radius: 40px;
+	-webkit-box-shadow: 11px 9px 52px -15px rgba(0,0,0,0.75);
+}
+
+
+#results{
+	font-size: 16px;
+}
 #twitter{
 	max-width: 30px;
 }
@@ -64,8 +87,20 @@ footer{
 	color:white;
 	text-align: center;
 	clear:both;
+	margin-top: 130px;
 }
 
 footer a{
 	text-decoration: underline;
+}
+
+select{
+	width: 200px;
+	border-radius: 45px;
+}
+
+@media only screen and (max-width: 630px){
+	nav{
+		display: flex;
+	}
 }
