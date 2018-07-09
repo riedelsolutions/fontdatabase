@@ -115,3 +115,267 @@
 
 
 	}
+
+	/*
+
+	function printResults(chosenArray??){
+		for (var i = 0, i<chosenArray.length-1, i++){
+			
+			print object at i index.pic
+			print object at i index.linkto
+			new line
+			i++
+
+		}
+	}
+	*/
+
+	/*
+	ARRAYS -> make the objects for each and then the arrays
+						Array lists:
+
+-seriousnessArray:
+	name: Comic Sans MS, link: , img:
+	name: Forte, link: , img:
+	name: Luna, link: , img:
+	name: Brush Script MT Italic, link: , img:
+	name: Freestyle Script, link: , img:
+	name: Mistral, link: , img:
+	name: Harlow Solid Italic, link: , img:
+	name: Impact, link: , img:
+	name: Bauhaus 93, link: , img:
+	name: Haettenschweiler, link: , img:
+	name: Muskaters, link: , img:
+	name: High Tide, link: , img:
+	name: Bebas, link: , img:
+	name: LemonMilk, link: , img:
+	name: Code, link: , img:
+	name: Cocomat Light, link: , img:
+	name: Berlin Sans FB, link: , img:
+	name: museo slab 500, link: , img:
+	name: Consolas, link: , img:
+	name: Frutiger, link: , img:
+	name: Calibri, link: , img:
+	name: Candara, link: , img:
+	name: Myriad, link: , img:
+	name: Calisto MT, link: , img:
+	name: Californian FB, link: , img:
+	name: Gravity, link: , img:
+	name: Open Sans, link: , img:
+	name: Raleway, link: , img:
+	name: Blair ITC, link: , img:
+	name: Cocon, link: , img:
+	name: Agent, link: , img:
+	name: Courier New, link: , img:
+	name: Arial, link: , img:
+	name: Centaur, link: , img:
+	name: Gill Sans, link: , img:
+	name: Minion Pro, link: , img:
+	name: Verdana, link: , img:
+	name: Letter Gothic std, link: , img:
+	name: Encode Sans Condensed, link: , img:
+	name: Montserrat, link: , img:
+	name: Roboto, link: , img:
+	name: DIN, link: , img:
+	name: Times New Roman, link: , img:
+	name: Century Gothic, link: , img:
+	name: Franklin Gothic Book, link: , img:
+	name: Book Antiqua, link: , img:
+	name: Garamond, link: , img:
+	name: Georgia, link: , img:
+	name: Avenir, link: , img:
+	name: FF Meta Pro Hairline, link: , img:
+	name: Univers, link: , img:
+	name: Futura, link: , img:
+	name: Elephant, link: , img:
+	name: Bodoni MT, link: , img:
+	name: Modern no. 20, link: , img:
+	name: Didot, link: , img:
+	name: Trajan, link: , img:
+	name: Marbre Sans, link: , img:
+	name: Bickham Script, link: , img:
+
+-informalArray
+	name: Bickham Script, link: , img:
+	name: Marbre Sans, link: , img:
+	name: Trajan, link: , img:
+	name: Didot, link: , img:
+	name: Modern no. 20, link: , img:
+	name: Bodoni MT, link: , img:
+	name: Elephant, link: , img:
+	name: Futura, link: , img:
+	name: Univers, link: , img:
+	name: FF Meta Pro Hairline, link: , img:
+	name: Avenir, link: , img:
+	name: Georgia, link: , img:
+	name: Garamond, link: , img:
+	name: Book Antiqua, link: , img:
+	name: Franklin Gothic Book, link: , img:
+	name: Century Gothic, link: , img:
+	name: Times New Roman, link: , img:
+	name: DIN, link: , img:
+	name: Roboto, link: , img:
+	name: Montserrat, link: , img:
+	name: Encode Sans Condensed, link: , img:
+	name: Letter Gothic std, link: , img:
+	name: Verdana, link: , img:
+	name: Minion Pro, link: , img:
+	name: Gill Sans, link: , img:
+	name: Centaur, link: , img:
+	name: Arial, link: , img:
+	name: Courier New, link: , img:
+	name: Agent, link: , img:
+	name: Cocon, link: , img:
+	name: Blair ITC, link: , img:
+	name: Raleway, link: , img:
+	name: Open Sans, link: , img:
+	name: Gravity, link: , img:
+	name: Californian FB, link: , img:
+	name: Calisto MT, link: , img:
+	name: Myriad, link: , img:
+	name: Candara, link: , img:
+	name: Calibri, link: , img:
+	name: Frutiger, link: , img:
+	name: Consolas, link: , img:
+	name: museo slab 500, link: , img:
+	name: Berlin Sans FB, link: , img:
+	name: Cocomat Light, link: , img:
+	name: Code, link: , img:
+	name: LemonMilk, link: , img:
+	name: Bebas, link: , img:
+	name: High Tide, link: , img:
+	name: Muskaters, link: , img:
+	name: Haettenschweiler, link: , img:
+	name: Bauhaus 93, link: , img:
+	name: Impact, link: , img:
+	name: Harlow Solid Italic, link: , img:
+	name: Mistral, link: , img:
+	name: Freestyle Script, link: , img:
+	name: Brush Script MT Italic, link: , img:
+	name: Luna, link: , img:
+	name: Forte, link: , img:
+	name: Comic Sans MS, link: , img:
+
+-serifArray
+	name: Blair ITC, link: , img:
+	name: Univers, link: , img:
+	name: Bebas, link: , img:
+	name: Code, link: , img:
+	name: Haettenschweiler, link: , img:
+	name: Bauhaus 93, link: , img:
+	name: Avenir, link: , img:
+	name: Futura, link: , img:
+	name: Century Gothic, link: , img:
+	name: Arial, link: , img:
+	name: Gravity, link: , img:
+	name: Raleway, link: , img:
+	name: DIN, link: , img:
+	name: FF Meta Pro Hairline, link: , img:
+	name: Open Sans, link: , img:
+	name: LemonMilk, link: , img:
+	name: Marbre Sans, link: , img:
+	name: Cocon, link: , img:
+	name: Comic Sans MS, link: , img:
+	name: Consolas, link: , img:
+	name: Encode Sans Condensed, link: , img:
+	name: Calibri, link: , img:
+	name: Roboto, link: , img:
+	name: Franklin Gothic Book, link: , img:
+	name: Montserrat, link: , img:
+	name: Cocomat Light, link: , img:
+	name: Verdana, link: , img:
+	name: Frutiger, link: , img:
+	name: Letter Gothic std, link: , img:
+	name: Impact, link: , img:
+	name: Gill Sans, link: , img:
+	name: Berlin Sans FB, link: , img:
+	name: Candara, link: , img:
+	name: Myriad, link: , img:
+	name: Courier New, link: , img:
+	name: Calisto MT, link: , img:
+	name: Californian FB, link: , img:
+	name: Elephant, link: , img:
+	name: Bodoni MT, link: , img:
+	name: Modern no. 20, link: , img:
+	name: Minion Pro, link: , img:
+	name: museo slab 500, link: , img:
+	name: Book Antiqua, link: , img:
+	name: Garamond, link: , img:
+	name: Georgia, link: , img:
+	name: Times New Roman, link: , img:
+	name: Centaur, link: , img:
+	name: Trajan, link: , img:
+	name: Didot, link: , img:
+	name: Harlow Solid Italic, link: , img:
+	name: Agent, link: , img:
+	name: Forte, link: , img:
+	name: Luna, link: , img:
+	name: Mistral, link: , img:
+	name: Brush Script MT, link: , img:
+	name: Freestyle Script, link: , img:
+	name: Muskaters, link: , img:
+	name: High Tide, link: , img:
+	name: Bickham Script, link: , img:
+
+-sansSerifArray:
+	name: Bickham Script, link: , img:
+	name: High Tide, link: , img:
+	name: Muskaters, link: , img:
+	name: Freestyle Script, link: , img:
+	name: Brush Script MT, link: , img:
+	name: Mistral, link: , img:
+	name: Luna, link: , img:
+	name: Forte, link: , img:
+	name: Agent, link: , img:
+	name: Harlow Solid Italic, link: , img:
+	name: Didot, link: , img:
+	name: Trajan, link: , img:
+	name: Centaur, link: , img:
+	name: Times New Roman, link: , img:
+	name: Georgia, link: , img:
+	name: Garamond, link: , img:
+	name: Book Antiqua, link: , img:
+	name: museo slab 500, link: , img:
+	name: Minion Pro, link: , img:
+	name: Modern no. 20, link: , img:
+	name: Bodoni MT, link: , img:
+	name: Elephant, link: , img:
+	name: Californian FB, link: , img:
+	name: Calisto MT, link: , img:
+	name: Courier New, link: , img:
+	name: Myriad, link: , img:
+	name: Candara, link: , img:
+	name: Berlin Sans FB, link: , img:
+	name: Gill Sans, link: , img:
+	name: Impact, link: , img:
+	name: Letter Gothic std, link: , img:
+	name: Frutiger, link: , img:
+	name: Verdana, link: , img:
+	name: Cocomat Light, link: , img:
+	name: Montserrat, link: , img:
+	name: Franklin Gothic Book, link: , img:
+	name: Roboto, link: , img:
+	name: Calibri, link: , img:
+	name: Encode Sans Condensed, link: , img:
+	name: Consolas, link: , img:
+	name: Comic Sans MS, link: , img:
+	name: Cocon, link: , img:
+	name: Marbre Sans, link: , img:
+	name: LemonMilk, link: , img:
+	name: Open Sans, link: , img:
+	name: FF Meta Pro Hairline, link: , img:
+	name: DIN, link: , img:
+	name: Raleway, link: , img:
+	name: Gravity, link: , img:
+	name: Arial, link: , img:
+	name: Century Gothic, link: , img:
+	name: Futura, link: , img:
+	name: Avenir, link: , img:
+	name: Bauhaus 93, link: , img:
+	name: Haettenschweiler, link: , img:
+	name: Code, link: , img:
+	name: Bebas, link: , img:
+	name: Univers, link: , img:
+	name: Blair ITC, link: , img:
+
+	*/
