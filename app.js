@@ -17,207 +17,207 @@
 
 	var ComicSansMS = {
 		name: "Comic Sans MS",
-		link: "",
+		link: "https://www.fonts.com/font/microsoft-corporation/comic-sans",
 		img: "",
 	}
 
 	var Forte = {
 		name: "Forte",
-		link: "",
+		link: "https://catalog.monotype.com/family/monotype/forte",
 		img: ""
 	}
 
 	var Luna = {
 		name: "Luna",
-		link: ,
+		link: "https://www.behance.net/gallery/27812357/LUNA-Free-Font",
 		img:
 	}
 
 	var BrushScriptMT = {
 		name: "Brush Script MT",
-		link: ,
+		link: "https://www.fonts.com/font/adobe/brush-script",
 		img:
 	}
 
 	var FreestyleScript ={
 		name: "Freestyle Script",
-		link: ,
+		link:"https://www.fonts.com/font/adobe/freestyle-script" ,
 		img:
 	}
 
 	var Mistral = {
 		name: "Mistral",
-		link: ,
+		link: "https://www.fonts.com/font/adobe/mistral/regular",
 		img:
 	}
 
 	var HarlowSolidItalic = {
-		name: "Harlow Solid Italic",
-		link: ,
+		name: "Harlow Solid",
+		link:"https://www.fonts.com/font/itc/harlow",
 		img:
 	}
 
 
 	var Impact = {
 		name: "Impact", 
-		link: ,
+		link:"https://www.wfonts.com/font/impact",
 		img:
 	}
 
 	var Bauhaus93 = {
 		name: "Bauhaus 93",
-		link: ,
+		link:"https://www.fonts.com/font/urw/bauhaus-93/regular" ,
 		img:
 	}
 
 	var Haettenschweiler = {
 		name: "Haettenschweiler",
-		link: ,
+		link:"https://www.fonts.com/font/microsoft-corporation/haettenschweiler",
 		img:
 	}
 
 	var Muskaters = {
 		name: "Muskaters",
-		link: ,
+		link:"https://fontbundles.net/font-bundles-store/58592-muskaters-duo-style-font-bonus",
 		img:
 	}
 
 	var HighTide = {
 		name: "High Tide",
-		link: ,
+		link:"https://blkbk.ink/products/high-tides",
 		img:
 	}
 
 
 	var Bebas = {
 		name: "Bebas",
-		link: ,
+		link:"https://www.dafont.com/bebas.font",
 		img: 
 	}
 
 	var LemonMilk = {
 		name: "LemonMilk",
-		link: ,
+		link:"https://www.dafont.com/lemon-milk.font",
 		img: ,
 
 	}
 
 	var Code = {
 		name: "Code",
-		link: ,
+		link:"http://www.myfonts.com/fonts/font-fabric/code-pro/",
 		img: ,
 	}
 
 	var CocomatLight ={
 		name "Cocomat Light",
-		link:,
+		link:"https://www.dafont.com/cocomat.font",
 		img:
 	}
 
 	var BerlinSansFB = {
 		name: "Berlin Sans FB",
-		link:,
+		link:"http://fontsgeek.com/fonts/Berlin-Sans-FB-Regular",
 		img:,
 	}
 
 	var museoslab500 = {
 		name: "museo slab 500",
-		link:,
+		link:"https://www.myfonts.com/fonts/exljbris/museo-slab/500/",
 		img:
 	}
 
 
 	var Consolas = {
 		name: "Consolas",
-		link:,
+		link:"https://www.microsoft.com/en-us/download/details.aspx?id=17879",
 		img:
 	}
 
 
 	var Frutiger = {
 		name: "Frutiger",
-		link:,
+		link:"https://www.fonts.com/font/linotype/frutiger/complete-family-pack",
 		img:
 	}
 
 	var Calibri = {
 		name: "Calibri",
-		link: ,
+		link: "https://docs.microsoft.com/ru-ru/typography/font-list/calibri",
 		img: 
 	}
 
 	var Candara = {
 		name: "Candara",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/candara",
 		img:
 	}
 
 	var Myriad = {
 		name: "Myriad",
-		link: ,
+		link:"https://www.fonts.com/font/adobe/myriads",
 		img: ,
 	}
 
 	var CalistoMT ={
 		name: "Calisto MT",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/calisto-mt",
 		img: ,
 	}
 
 
 	var CalifornianFB = {
 		name: "CalifornianFB",
-		link:,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/californian-fb",
 		img:
 	}
 
 
 	var Gravity = {
 		name: "Gravity",
-		link: ,
+		link:"https://www.behance.net/gallery/3407691/Gravity-New-free-font-experiment",
 		img:
 	}
 
 	var OpenSans = {
 		name: "Open Sans",
-		link: ,
+		link:"https://fonts.google.com/specimen/Open+Sans",
 		img:
 	}
 
 	var Raleway = {
 		name: "Raleway",
-		link: ,
+		link:"https://fonts.google.com/specimen/Raleway",
 		img:
 	}
 
 	var BlairITC ={
-		name: "Blair ITC",
-		link: ,
+		name: "ITC Blair",
+		link:"https://www.myfonts.com/fonts/itc/blair/",
 		img:
 	}
 
 
 	var Cocon = {
 		name: "Cocon",
-		link: ,
+		link:"https://www.myfonts.com/fonts/fontfont/ff-cocon/",
 		img:
 	}
 
 	var Agent = {
 		name: "Agent",
-		link: ,
+		link:"https://befonts.com/agent-typeface.html",
 		img:
 	}
 
 	var CourierNew = {
 		name: "Courier New",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/courier-new",
 		img:
 	}
 
 	var Arial = {
 		name: "Arial",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/arial",
 		img: 
 	}
 
@@ -326,8 +326,6 @@
 		img:
 	}
 
-	
-
 	var Univers = {
 		name: "Univers",
 		link: ,
@@ -356,10 +354,8 @@
 		name: "Modern no. 20",
 		link: ,
 		img:
-
 	}
 	
-
 	var Didot = {
 		name: "Didot",
 		link: ,
