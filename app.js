@@ -13,126 +13,7 @@
 			fontInput = document.getElementById('font').value;
 		
 		}
-
-//font arrays
-		var seriousnessArray = ["none", "Comic Sans", "Arial", "Courier", "Open Sans", "Book Antiqua", "Helvetica"];
-		var informalArray = ["none", "Helvetica", "Book Antiqua", "Open Sans", "Courier", "Arial", "Comic Sans"];
-		var serifArray = [];
-		var sansSerifArray = [];
-
-//Helper variables
-		//var result = []; //Array with the results(output).
-		var index;		//Index of where in the original array the results list should start.
-		var indexOfNewArray = 0; //Helps initialize and fill the result[] array.
-
-
-
-//algorithm
-		
-		//noneFound(); runs if there are no fonts to be suggested.
-		function noneFound(){ 
-			var noResults = "Sorry, we could not find fonts more " + fontCharacteristic +  " than " + fontInput + ".";
-   			var newParagraph = document.createElement('p');
-   			newParagraph.textContent = noResults;
-   			document.getElementById("resultDiv").appendChild(newParagraph);
-   			
-    	}
-
-		//createResultsArray(arrayType); creates the new array with the results -> Creates the output.
-		function createResultsArray(arrayType){
-			if ($.inArray(fontInput, arrayType)){
-
-					for (var i = 0; i < arrayType.length; i++){
-						if (arrayType[i] == fontInput){
-							index = i;
-						}
-					}
-				} 
-		}
-
-
-		// results(chosenArray); prints the output.
-		function results(chosenArray){ 
-
-			if (index >= chosenArray.length - 1){ //if the font the user looked up is the most serious already
-
-			noneFound();
-
-
-			} else { // if it isn't, it prints the rest
-
-					var result = [];
-					for (var i = index + 1; i < chosenArray.length; i++){
-					result[indexOfNewArray] = chosenArray[i];
-					indexOfNewArray++;
-					}
-
-			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": " + result + ".";
-   			var paragraph = document.createElement('p');
-   			paragraph.textContent = fontsMoreEtc;
-   			document.getElementById("resultDiv").appendChild(paragraph);
-
-  
-   			result = 0;
-   			indexOfNewArray = 0;
-    }
-				
-			
-			}
-			
-		
-
-
-		function algo(){ //Change this name once I get rid of the original results function.
-		
-
-			if(fontCharacteristic == "formal"){ //If the user looks for more formal fonts, we create the serious results array 
-
-
-				createResultsArray(seriousnessArray);
-				results(seriousnessArray);
-				
-			} else if (fontCharacteristic == "informal"){ //If the user looks for more formal fonts, we create the informal results array 
-
-				createResultsArray(informalArray);
-				results(informalArray);
-
-			}else if (fontCharacteristic == "serif"){ //If the user looks for more formal fonts, we create the serif results array 
-
-				createResultsArray(serifArray);
-				results(serifArray);
-
-				
-			} else if (fontCharacteristic == "sansserif"){ //If the user looks for more formal fonts, we create the sans serif results array 
-
-				createResultsArray(sansSerifArray);
-				results(sansSerifArray);
-
-			
-			}else{
-				//nothing.
-			}
-
-
-	}
-
-	/*
-
-	function printResults(chosenArray??){
-		for (var i = 0, i<chosenArray.length-1, i++){
-			
-			print object at i index.pic
-			print object at i index.linkto
-			new line
-			i++
-
-		}
-	}
-	*/
-
-
-
-//OBJECTS
+//font objects
 
 	var ComicSansMS = {
 		name: "Comic Sans MS",
@@ -152,8 +33,8 @@
 		img:
 	}
 
-	var BrushScriptMTItalic = {
-		name: "Brush Script MT Italic",
+	var BrushScriptMT = {
+		name: "Brush Script MT",
 		link: ,
 		img:
 	}
@@ -502,7 +383,143 @@
 		link: ,
 		img:
 	}
-	
+
+//font arrays
+		var seriousnessArray = ["none", ComicSansMS, Forte, Luna, BrushScriptMT, FreestyleScript, Mistral, HarlowSolidItalic, Impact, Bauhaus93,
+								Haettenschweiler, Muskaters, HighTide, Bebas, LemonMilk, Code, CocomatLight, BerlinSansFB, museoslab500, Consolas, Frutiger,
+								Calibri, Candara, Myriad, CalistoMT, CalifornianFB, Gravity, OpenSans, Raleway, BlairITC, Cocon, Agent, CourierNew, Arial,
+								Centaur, GillSans, MinionPro, Verdana, LetterGothicstd, EncodeSansCondensed, Montserrat, Roboto, DIN, TimesNewRoman,
+								CenturyGothic, FranklinGothicBook, BookAntiqua, Garamond, Georgia, Avenir, FFMetaProHairline, Univers, Futura, Elephant,
+								BodoniMT, ModernNo20, Didot, Trajan, MarbreSans, BickhamScript];
+
+		var informalArray = ["none", BickhamScript, MarbreSans, Trajan, Didot, ModernNo20, BodoniMT, Elephant, Futura, Univers, FFMetaProHairline, Avenir,
+							Georgia, Garamond, BookAntiqua, FranklinGothicBook, CenturyGothic, TimesNewRoman, DIN, Roboto, Montserrat, EncodeSansCondensed,
+							LetterGothicstd, Verdana, MinionPro, GillSans, Centaur, Arial, CourierNew, Agent, Cocon, BlairITC, Raleway, OpenSans, Gravity,
+							CalifornianFB, CalistoMT, Myriad, Candara, Calibri, Frutiger, Consolas, museoslab500, BerlinSansFB, CocomatLight, Code, LemonMilk,
+							Bebas, HighTide, Muskaters, Haettenschweiler, Bauhaus93, Impact, HarlowSolidItalic, Mistral, FreestyleScript, BrushScriptMT,
+							Luna, Forte, ComicSansMS];
+		var serifArray = ["none", BlairITC, Univers, Bebas, Code, Haettenschweiler, Bauhaus93, Avenir, Futura, CenturyGothic, Arial, Gravity, Raleway, DIN,
+						FFMetaProHairline, OpenSans, LemonMilk, MarbreSans, Cocon, ComicSansMS, Consolas, EncodeSansCondensed, Calibri, Roboto, FranklinGothicBook,
+						Montserrat, CocomatLight, Verdana, Frutiger, LetterGothicstd, Impact, GillSans, BerlinSansFB, Candara, Myriad, CourierNew, CalistoMT,
+						CalifornianFB, Elephant, BodoniMT, ModernNo20, MinionPro, museoslab500, BookAntiqua, Garamond, Georgia, TimesNewRoman, Centaur, Trajan,
+						Didot, HarlowSolidItalic, Agent, Forte, Luna, Mistral, BrushScriptMT, FreestyleScript, Muskaters, HighTide, BickhamScript ];
+		var sansSerifArray = ["none"];
+
+//Helper variables
+		//var result = []; //Array with the results(output).
+		var index;		//Index of where in the original array the results list should start.
+		var indexOfNewArray = 0; //Helps initialize and fill the result[] array.
+
+
+
+//algorithm
+		
+		//noneFound(); runs if there are no fonts to be suggested.
+		function noneFound(){ 
+			var noResults = "Sorry, we could not find fonts more " + fontCharacteristic +  " than " + fontInput + ".";
+   			var newParagraph = document.createElement('p');
+   			newParagraph.textContent = noResults;
+   			document.getElementById("resultDiv").appendChild(newParagraph);
+   			
+    	}
+
+		//createResultsArray(arrayType); creates the new array with the results -> Creates the output.
+		function createResultsArray(arrayType){
+			if ($.inArray(fontInput, arrayType)){
+
+					for (var i = 0; i < arrayType.length; i++){
+						if (arrayType[i] == fontInput){
+							index = i;
+						}
+					}
+				} 
+		}
+
+
+		// results(chosenArray); prints the output.
+		function results(chosenArray){ 
+
+			if (index >= chosenArray.length - 1){ //if the font the user looked up is the most serious already
+
+			noneFound();
+
+
+			} else { // if it isn't, it prints the rest
+
+					var result = [];
+					for (var i = index + 1; i < chosenArray.length; i++){
+					result[indexOfNewArray] = chosenArray[i];
+					indexOfNewArray++;
+					}
+
+			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": " + result + ".";
+   			var paragraph = document.createElement('p');
+   			paragraph.textContent = fontsMoreEtc;
+   			document.getElementById("resultDiv").appendChild(paragraph);
+
+  
+   			result = 0;
+   			indexOfNewArray = 0;
+    }
+				
+			
+			}
+			
+		
+
+
+		function algo(){ //Change this name once I get rid of the original results function.
+		
+
+			if(fontCharacteristic == "formal"){ //If the user looks for more formal fonts, we create the serious results array 
+
+
+				createResultsArray(seriousnessArray);
+				results(seriousnessArray);
+				
+			} else if (fontCharacteristic == "informal"){ //If the user looks for more formal fonts, we create the informal results array 
+
+				createResultsArray(informalArray);
+				results(informalArray);
+
+			}else if (fontCharacteristic == "serif"){ //If the user looks for more formal fonts, we create the serif results array 
+
+				createResultsArray(serifArray);
+				results(serifArray);
+
+				
+			} else if (fontCharacteristic == "sansserif"){ //If the user looks for more formal fonts, we create the sans serif results array 
+
+				createResultsArray(sansSerifArray);
+				results(sansSerifArray);
+
+			
+			}else{
+				//nothing.
+			}
+
+
+	}
+
+	/*
+
+	function printResults(chosenArray??){
+		for (var i = 0, i<chosenArray.length-1, i++){
+			
+			print object at i index.pic
+			print object at i index.linkto
+			new line
+			i++
+
+		}
+	}
+	*/
+
+
+
+//OBJECTS
+
+
 	/*
 	ARRAYS -> make the objects for each and then the arrays
 						Array lists:
