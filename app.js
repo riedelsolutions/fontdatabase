@@ -403,7 +403,11 @@
 						Montserrat, CocomatLight, Verdana, Frutiger, LetterGothicstd, Impact, GillSans, BerlinSansFB, Candara, Myriad, CourierNew, CalistoMT,
 						CalifornianFB, Elephant, BodoniMT, ModernNo20, MinionPro, museoslab500, BookAntiqua, Garamond, Georgia, TimesNewRoman, Centaur, Trajan,
 						Didot, HarlowSolidItalic, Agent, Forte, Luna, Mistral, BrushScriptMT, FreestyleScript, Muskaters, HighTide, BickhamScript ];
-		var sansSerifArray = ["none"];
+		var sansSerifArray = ["none", BickhamScript, HighTide, Muskaters, FreestyleScript, BrushScriptMT, Mistral, Luna, Forte, Agent, HarlowSolidItalic, Didot,
+							Trajan, Centaur, TimesNewRoman, Georgia, Garamond, BookAntiqua, museoslab500, MinionPro, ModernNo20, BodoniMT, Elephant, CalifornianFB,
+							CalistoMT, CourierNew, Myriad, Candara, BerlinSansFB, GillSans, Impact, LetterGothicstd, Frutiger, Verdana, CocomatLight, Montserrat,
+							FranklinGothicBook, Roboto, Calibri, EncodeSansCondensed, Consolas, ComicSansMS, Cocon, MarbreSans, LemonMilk, OpenSans, FFMetaProHairline,
+							DIN, Raleway, Gravity, Arial, CenturyGothic, Futura, Avenir, Bauhaus93, Haettenschweiler, Code, Bebas, Univers, BlairITC];
 
 //Helper variables
 		//var result = []; //Array with the results(output).
