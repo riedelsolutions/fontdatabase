@@ -223,160 +223,160 @@
 
 	var Centaur = {
 		name: "Centaur",
-		link:,
+		link:"https://www.myfonts.com/fonts/mti/centaur/#index",
 		img:
 	}
 
 	var GillSans = {
 		name: "Gill Sans",
-		link:,
+		link:"https://www.myfonts.com/fonts/mti/gill-sans/",
 		img:
 	}
 
 	var MinionPro = {
 		name: "Minion Pro",
-		link:,
+		link:"https://www.myfonts.com/fonts/adobe/minion/",
 		img:
 	}
 
 	var Verdana = {
 		name: "Verdana",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/verdana",
 		img:
 	}
 
 
 	var LetterGothicstd = {
 	  	name: "Letter Gothic std",
-	  	link: ,
+	  	link:"https://www.myfonts.com/fonts/mti/letter-gothic/" ,
 	  	img:
 	  }
 
 
 	var EncodeSansCondensed = {
 	  	name: "Encode Sans Condensed",
-	  	link: ,
+	  	link:"https://fonts.google.com/specimen/Encode+Sans+Condensed",
 	  	img:
 	  }
 
 
 	var Montserrat = {
 		name: "Montserrat",
-		link: ,
+		link:"https://fonts.google.com/specimen/Montserrat",
 		img:
 	}
 
 	var Roboto = {
 		name: "Roboto",
-		link: ,
+		link:"https://fonts.google.com/specimen/Roboto",
 		img:
 	}
 
 	var DIN = {
 		name: "DIN",
-		link: ,
+		link:"https://www.myfonts.com/fonts/fontfont/ff-din/",
 		img:
 	}
 
 	var TimesNewRoman = {
 		name: "Times New Roman",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/times-new-roman",
 		img:
 	}
 
 	var CenturyGothic = {
 		name: "Century Gothic",
-		link: ,
+		link:"https://www.myfonts.com/fonts/mti/century-gothic/",
 		img:
 	}
 
 	var FranklinGothicBook = {
 		name: "Franklin Gothic Book",
-		link: ,
+		link:"https://www.fonts.com/font/urw/franklin-gothic/book",
 		img:
 	}
 
 	var BookAntiqua = {
 		name: "Book Antiqua",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/book-antiqua",
 		img:
 	}
 
 	var Garamond = {
 		name: "Garamond",
-		link:,
+		link:"https://typekit.com/fonts/adobe-garamond",
 		img:,
 	}
 
 	var Georgia = {
 		name: "Georgia",
-		link:,
+		link:"https://www.myfonts.com/fonts/ascender/georgia/",
 		img:,
 	}
 
 	var Avenir = {
 		name: "Avenir",
-		link: ,
+		link:"https://www.myfonts.com/fonts/linotype/avenir/",
 		img:
 	}
 
 	var FFMetaProHairline = {
 		name: "FF Meta Pro Hairline",
-		link: ,
+		link:"https://www.fonts.com/font/fontfont/ff-meta/hairline",
 		img:
 	}
 
 	var Univers = {
 		name: "Univers",
-		link: ,
+		link:"https://www.myfonts.com/fonts/linotype/univers/",
 		img:
 	}
 
 	var Futura = {
 		name: "Futura",
-		link: ,
+		link:"https://www.myfonts.com/fonts/bitstream/futura/",
 		img:
 	}
 
 	var Elephant = {
 		name: "Elephant",
-		link:,
+		link:"https://www.fonts.com/font/carter-and-cone/elephant/regular",
 		img:
 	}
 
 	var BodoniMT = {
 		name: "Bodoni MT",
-		link: ,
+		link:"https://docs.microsoft.com/en-us/typography/font-list/bodoni-mt",
 		img:
 	}
 
 	var ModernNo20 = {
 		name: "Modern no. 20",
-		link: ,
+		link:"https://www.myfonts.com/fonts/bitstream/modern-no-20/",
 		img:
 	}
 	
 	var Didot = {
 		name: "Didot",
-		link: ,
+		link:"https://www.myfonts.com/fonts/linotype/didot/",
 		img:
 	}
 
 	var Trajan = {
 		name: "Trajan",
-		link:,
+		link:"https://www.fonts.com/font/adobe/trajan/regular",
 		img:	
 	}
 
 	var MarbreSans = {
 		name: "Marbre Sans",
-		link: ,
+		link:"https://www.dafont.com/marbre-sans.font",
 		img:
 	}
 	
 	var BickhamScript = {
 		name: "Bickham Script",
-		link: ,
+		link:"https://www.fonts.com/font/adobe/bickham-script",
 		img:
 	}
 
