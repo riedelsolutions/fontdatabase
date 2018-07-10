@@ -130,6 +130,379 @@
 	}
 	*/
 
+
+
+//OBJECTS
+
+	var ComicSansMS = {
+		name: "Comic Sans MS",
+		link: "",
+		img: "",
+	}
+
+	var Forte = {
+		name: "Forte",
+		link: "",
+		img: ""
+	}
+
+	var Luna = {
+		name: "Luna",
+		link: ,
+		img:
+	}
+
+	var BrushScriptMTItalic = {
+		name: "Brush Script MT Italic",
+		link: ,
+		img:
+	}
+
+	var FreestyleScript ={
+		name: "Freestyle Script",
+		link: ,
+		img:
+	}
+
+	var Mistral = {
+		name: "Mistral",
+		link: ,
+		img:
+	}
+
+	var HarlowSolidItalic = {
+		name: "Harlow Solid Italic",
+		link: ,
+		img:
+	}
+
+
+	var Impact = {
+		name: "Impact", 
+		link: ,
+		img:
+	}
+
+	var Bauhaus93 = {
+		name: "Bauhaus 93",
+		link: ,
+		img:
+	}
+
+	var Haettenschweiler = {
+		name: "Haettenschweiler",
+		link: ,
+		img:
+	}
+
+	var Muskaters = {
+		name: "Muskaters",
+		link: ,
+		img:
+	}
+
+	var HighTide = {
+		name: "High Tide",
+		link: ,
+		img:
+	}
+
+
+	var Bebas = {
+		name: "Bebas",
+		link: ,
+		img: 
+	}
+
+	var LemonMilk = {
+		name: "LemonMilk",
+		link: ,
+		img: ,
+
+	}
+
+	var Code = {
+		name: "Code",
+		link: ,
+		img: ,
+	}
+
+	var CocomatLight ={
+		name "Cocomat Light",
+		link:,
+		img:
+	}
+
+	var BerlinSansFB = {
+		name: "Berlin Sans FB",
+		link:,
+		img:,
+	}
+
+	var museoslab500 = {
+		name: "museo slab 500",
+		link:,
+		img:
+	}
+
+
+	var Consolas = {
+		name: "Consolas",
+		link:,
+		img:
+	}
+
+
+	var Frutiger = {
+		name: "Frutiger",
+		link:,
+		img:
+	}
+
+	var Calibri = {
+		name: "Calibri",
+		link: ,
+		img: 
+	}
+
+	var Candara = {
+		name: "Candara",
+		link: ,
+		img:
+	}
+
+	var Myriad = {
+		name: "Myriad",
+		link: ,
+		img: ,
+	}
+
+	var CalistoMT ={
+		name: "Calisto MT",
+		link: ,
+		img: ,
+	}
+
+
+	var CalifornianFB = {
+		name: "CalifornianFB",
+		link:,
+		img:
+	}
+
+
+	var Gravity = {
+		name: "Gravity",
+		link: ,
+		img:
+	}
+
+	var OpenSans = {
+		name: "Open Sans",
+		link: ,
+		img:
+	}
+
+	var Raleway = {
+		name: "Raleway",
+		link: ,
+		img:
+	}
+
+	var BlairITC ={
+		name: "Blair ITC",
+		link: ,
+		img:
+	}
+
+
+	var Cocon = {
+		name: "Cocon",
+		link: ,
+		img:
+	}
+
+	var Agent = {
+		name: "Agent",
+		link: ,
+		img:
+	}
+
+	var CourierNew = {
+		name: "Courier New",
+		link: ,
+		img:
+	}
+
+	var Arial = {
+		name: "Arial",
+		link: ,
+		img: 
+	}
+
+	var Centaur = {
+		name: "Centaur",
+		link:,
+		img:
+	}
+
+	var GillSans = {
+		name: "Gill Sans",
+		link:,
+		img:
+	}
+
+	var MinionPro = {
+		name: "Minion Pro",
+		link:,
+		img:
+	}
+
+	var Verdana = {
+		name: "Verdana",
+		link: ,
+		img:
+	}
+
+
+	var LetterGothicstd = {
+	  	name: "Letter Gothic std",
+	  	link: ,
+	  	img:
+	  }
+
+
+	var EncodeSansCondensed = {
+	  	name: "Encode Sans Condensed",
+	  	link: ,
+	  	img:
+	  }
+
+
+	var Montserrat = {
+		name: "Montserrat",
+		link: ,
+		img:
+	}
+
+	var Roboto = {
+		name: "Roboto",
+		link: ,
+		img:
+	}
+
+	var DIN = {
+		name: "DIN",
+		link: ,
+		img:
+	}
+
+	var TimesNewRoman = {
+		name: "Times New Roman",
+		link: ,
+		img:
+	}
+
+	var CenturyGothic = {
+		name: "Century Gothic",
+		link: ,
+		img:
+	}
+
+	var FranklinGothicBook = {
+		name: "Franklin Gothic Book",
+		link: ,
+		img:
+	}
+
+	var BookAntiqua = {
+		name: "Book Antiqua",
+		link: ,
+		img:
+	}
+
+	var Garamond = {
+		name: "Garamond",
+		link:,
+		img:,
+	}
+
+	var Georgia = {
+		name: "Georgia",
+		link:,
+		img:,
+	}
+
+	var Avenir = {
+		name: "Avenir",
+		link: ,
+		img:
+	}
+
+	var FFMetaProHairline = {
+		name: "FF Meta Pro Hairline",
+		link: ,
+		img:
+	}
+
+	
+
+	var Univers = {
+		name: "Univers",
+		link: ,
+		img:
+	}
+
+	var Futura = {
+		name: "Futura",
+		link: ,
+		img:
+	}
+
+	var Elephant = {
+		name: "Elephant",
+		link:,
+		img:
+	}
+
+	var BodoniMT = {
+		name: "Bodoni MT",
+		link: ,
+		img:
+	}
+
+	var ModernNo20 = {
+		name: "Modern no. 20",
+		link: ,
+		img:
+
+	}
+	
+
+	var Didot = {
+		name: "Didot",
+		link: ,
+		img:
+	}
+
+	var Trajan = {
+		name: "Trajan",
+		link:,
+		img:	
+	}
+
+	var MarbreSans = {
+		name: "Marbre Sans",
+		link: ,
+		img:
+	}
+	
+	var BickhamScript = {
+		name: "Bickham Script",
+		link: ,
+		img:
+	}
+	
 	/*
 	ARRAYS -> make the objects for each and then the arrays
 						Array lists:
