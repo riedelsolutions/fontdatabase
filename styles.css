@@ -19,11 +19,17 @@ h2{
 	text-align: right;
 }
 
+h3{
+	color: white;
+	font-size: 22px;
+}
+
 .title{
 	float: right;
 	line-height: 4px;
 	margin-top: 50px;
 	padding-right: 20%;
+	clear: both;
 }
 
 ul{
@@ -97,6 +103,29 @@ select{
 	height: 35px;
 	text-align: center;
 }
+
+
+#howto{
+	text-align: center;
+	max-width: 70%;
+	margin: auto;
+	margin-top: 250px;
+}
+
+#howto a{
+	color:black;
+	text-decoration: underline;
+}
+
+p strong{
+	color:black;
+}
+
+#resultDiv a{
+	color: black;
+}
+
+
 
 footer{
 	color:white;
