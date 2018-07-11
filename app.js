@@ -378,7 +378,7 @@
 		name: "Bickham Script",
 		link:"https://www.fonts.com/font/adobe/bickham-script",
 		img:"",
-	
+
 	}
 
 //Font arrays
@@ -444,16 +444,16 @@
 					indexOfNewArray++;
 					}
 
-		
+				ind = 0;
+			}
 
-		ind = 0;
-	}
+
 			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": " + /* fix this->*/finalResArray + "."; // make this a loop so it prints the object.name, object.image. and objct.link
    			var paragraph = document.createElement('p');
    			paragraph.textContent = fontsMoreEtc;
    			document.getElementById("resultDiv").appendChild(paragraph);
 
-  
+  			//resets variables so the user can reuse the program
    			result = 0;
    			indexOfNewArray = 0;
    			finalResArray = [];
@@ -482,7 +482,7 @@
 					for (var i = 0; i < arrayType.length; i++){
 						if (arrayType[i].name == fontInput){
 							index = i;
-							console.log(index);
+							//console.log(index);
 							
 						}
 
@@ -543,24 +543,3 @@
 
 
 	}
-
-	/*
-
-	function printResults(chosenArray??){
-		var ind = 0;
-		for (var i = 0, i<chosenArray.length-1, i++){
-			
-			finalResArray[i] = JSON.stringify(result[i]);
-			
-
-
-			print object at i index.pic
-			print object at i index.linkto
-			new line
-			i++
-
-		}
-
-		ind = 0;
-	}
-	*/
