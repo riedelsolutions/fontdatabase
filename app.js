@@ -13,7 +13,7 @@
 			fontInput = document.getElementById('font').value;
 		
 		}
-//font objects
+//Font objects
 
 	var ComicSansMS = {
 		name: "Comic Sans MS",
@@ -24,363 +24,364 @@
 	var Forte = {
 		name: "Forte",
 		link: "https://catalog.monotype.com/family/monotype/forte",
-		img: ""
+		img: "",
 	}
 
 	var Luna = {
 		name: "Luna",
 		link: "https://www.behance.net/gallery/27812357/LUNA-Free-Font",
-		img:
+		img:"",
 	}
 
 	var BrushScriptMT = {
 		name: "Brush Script MT",
 		link: "https://www.fonts.com/font/adobe/brush-script",
-		img:
+		img:"",
 	}
 
 	var FreestyleScript ={
 		name: "Freestyle Script",
 		link:"https://www.fonts.com/font/adobe/freestyle-script" ,
-		img:
+		img:"",
 	}
 
 	var Mistral = {
 		name: "Mistral",
 		link: "https://www.fonts.com/font/adobe/mistral/regular",
-		img:
+		img:"",
 	}
 
 	var HarlowSolidItalic = {
 		name: "Harlow Solid",
 		link:"https://www.fonts.com/font/itc/harlow",
-		img:
+		img:"",
 	}
 
 
 	var Impact = {
 		name: "Impact", 
 		link:"https://www.wfonts.com/font/impact",
-		img:
+		img:"",
 	}
 
 	var Bauhaus93 = {
 		name: "Bauhaus 93",
 		link:"https://www.fonts.com/font/urw/bauhaus-93/regular" ,
-		img:
+		img:"",
 	}
 
 	var Haettenschweiler = {
 		name: "Haettenschweiler",
 		link:"https://www.fonts.com/font/microsoft-corporation/haettenschweiler",
-		img:
+		img:"",
 	}
 
 	var Muskaters = {
 		name: "Muskaters",
 		link:"https://fontbundles.net/font-bundles-store/58592-muskaters-duo-style-font-bonus",
-		img:
+		img:"",
 	}
 
 	var HighTide = {
 		name: "High Tide",
 		link:"https://blkbk.ink/products/high-tides",
-		img:
+		img:"",
 	}
 
 
 	var Bebas = {
 		name: "Bebas",
 		link:"https://www.dafont.com/bebas.font",
-		img: 
+		img: "",
 	}
 
 	var LemonMilk = {
 		name: "LemonMilk",
 		link:"https://www.dafont.com/lemon-milk.font",
-		img: ,
+		img: "",
 
 	}
 
 	var Code = {
 		name: "Code",
 		link:"http://www.myfonts.com/fonts/font-fabric/code-pro/",
-		img: ,
+		img: "",
 	}
 
 	var CocomatLight ={
-		name "Cocomat Light",
+		name: "Cocomat Light",
 		link:"https://www.dafont.com/cocomat.font",
-		img:
+		img:"",
 	}
 
 	var BerlinSansFB = {
 		name: "Berlin Sans FB",
 		link:"http://fontsgeek.com/fonts/Berlin-Sans-FB-Regular",
-		img:,
+		img:"",
 	}
 
 	var museoslab500 = {
 		name: "museo slab 500",
 		link:"https://www.myfonts.com/fonts/exljbris/museo-slab/500/",
-		img:
+		img:"",
 	}
 
 
 	var Consolas = {
 		name: "Consolas",
 		link:"https://www.microsoft.com/en-us/download/details.aspx?id=17879",
-		img:
+		img:"",
 	}
 
 
 	var Frutiger = {
 		name: "Frutiger",
 		link:"https://www.fonts.com/font/linotype/frutiger/complete-family-pack",
-		img:
+		img:"",
 	}
 
 	var Calibri = {
 		name: "Calibri",
 		link: "https://docs.microsoft.com/ru-ru/typography/font-list/calibri",
-		img: 
+		img: "",
 	}
 
 	var Candara = {
 		name: "Candara",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/candara",
-		img:
+		img:"",
 	}
 
 	var Myriad = {
 		name: "Myriad",
 		link:"https://www.fonts.com/font/adobe/myriads",
-		img: ,
+		img: "",
 	}
 
 	var CalistoMT ={
 		name: "Calisto MT",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/calisto-mt",
-		img: ,
+		img: "",
 	}
 
 
 	var CalifornianFB = {
 		name: "CalifornianFB",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/californian-fb",
-		img:
+		img:"",
 	}
 
 
 	var Gravity = {
 		name: "Gravity",
 		link:"https://www.behance.net/gallery/3407691/Gravity-New-free-font-experiment",
-		img:
+		img:"",
 	}
 
 	var OpenSans = {
 		name: "Open Sans",
 		link:"https://fonts.google.com/specimen/Open+Sans",
-		img:
+		img:"",
 	}
 
 	var Raleway = {
 		name: "Raleway",
 		link:"https://fonts.google.com/specimen/Raleway",
-		img:
+		img:"",
 	}
 
 	var BlairITC ={
 		name: "ITC Blair",
 		link:"https://www.myfonts.com/fonts/itc/blair/",
-		img:
+		img:"",
 	}
 
 
 	var Cocon = {
 		name: "Cocon",
 		link:"https://www.myfonts.com/fonts/fontfont/ff-cocon/",
-		img:
+		img:"",
 	}
 
 	var Agent = {
 		name: "Agent",
 		link:"https://befonts.com/agent-typeface.html",
-		img:
+		img:"",
 	}
 
 	var CourierNew = {
 		name: "Courier New",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/courier-new",
-		img:
+		img:"",
 	}
 
 	var Arial = {
 		name: "Arial",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/arial",
-		img: 
+		img: "",
 	}
 
 	var Centaur = {
 		name: "Centaur",
 		link:"https://www.myfonts.com/fonts/mti/centaur/#index",
-		img:
+		img:"",
 	}
 
 	var GillSans = {
 		name: "Gill Sans",
 		link:"https://www.myfonts.com/fonts/mti/gill-sans/",
-		img:
+		img:"",
 	}
 
 	var MinionPro = {
 		name: "Minion Pro",
 		link:"https://www.myfonts.com/fonts/adobe/minion/",
-		img:
+		img:"",
 	}
 
 	var Verdana = {
 		name: "Verdana",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/verdana",
-		img:
+		img:"",
 	}
 
 
 	var LetterGothicstd = {
 	  	name: "Letter Gothic std",
 	  	link:"https://www.myfonts.com/fonts/mti/letter-gothic/" ,
-	  	img:
+	  	img:"",
 	  }
 
 
 	var EncodeSansCondensed = {
 	  	name: "Encode Sans Condensed",
 	  	link:"https://fonts.google.com/specimen/Encode+Sans+Condensed",
-	  	img:
+	  	img:"",
 	  }
 
 
 	var Montserrat = {
 		name: "Montserrat",
 		link:"https://fonts.google.com/specimen/Montserrat",
-		img:
+		img:"",
 	}
 
 	var Roboto = {
 		name: "Roboto",
 		link:"https://fonts.google.com/specimen/Roboto",
-		img:
+		img:"",
 	}
 
 	var DIN = {
 		name: "DIN",
 		link:"https://www.myfonts.com/fonts/fontfont/ff-din/",
-		img:
+		img:"",
 	}
 
 	var TimesNewRoman = {
 		name: "Times New Roman",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/times-new-roman",
-		img:
+		img:"",
 	}
 
 	var CenturyGothic = {
 		name: "Century Gothic",
 		link:"https://www.myfonts.com/fonts/mti/century-gothic/",
-		img:
+		img:"",
 	}
 
 	var FranklinGothicBook = {
 		name: "Franklin Gothic Book",
 		link:"https://www.fonts.com/font/urw/franklin-gothic/book",
-		img:
+		img:"",
 	}
 
 	var BookAntiqua = {
 		name: "Book Antiqua",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/book-antiqua",
-		img:
+		img:"",
 	}
 
 	var Garamond = {
 		name: "Garamond",
 		link:"https://typekit.com/fonts/adobe-garamond",
-		img:,
+		img:"",
 	}
 
 	var Georgia = {
 		name: "Georgia",
 		link:"https://www.myfonts.com/fonts/ascender/georgia/",
-		img:,
+		img:"",
 	}
 
 	var Avenir = {
 		name: "Avenir",
 		link:"https://www.myfonts.com/fonts/linotype/avenir/",
-		img:
+		img:"",
 	}
 
 	var FFMetaProHairline = {
 		name: "FF Meta Pro Hairline",
 		link:"https://www.fonts.com/font/fontfont/ff-meta/hairline",
-		img:
+		img:"",
 	}
 
 	var Univers = {
 		name: "Univers",
 		link:"https://www.myfonts.com/fonts/linotype/univers/",
-		img:
+		img:"",
 	}
 
 	var Futura = {
 		name: "Futura",
 		link:"https://www.myfonts.com/fonts/bitstream/futura/",
-		img:
+		img:"",
 	}
 
 	var Elephant = {
 		name: "Elephant",
 		link:"https://www.fonts.com/font/carter-and-cone/elephant/regular",
-		img:
+		img:"",
 	}
 
 	var BodoniMT = {
 		name: "Bodoni MT",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/bodoni-mt",
-		img:
+		img:"",
 	}
 
 	var ModernNo20 = {
 		name: "Modern no. 20",
 		link:"https://www.myfonts.com/fonts/bitstream/modern-no-20/",
-		img:
+		img:"",
 	}
 	
 	var Didot = {
 		name: "Didot",
 		link:"https://www.myfonts.com/fonts/linotype/didot/",
-		img:
+		img:"",
 	}
 
 	var Trajan = {
 		name: "Trajan",
 		link:"https://www.fonts.com/font/adobe/trajan/regular",
-		img:	
+		img:"",	
 	}
 
 	var MarbreSans = {
 		name: "Marbre Sans",
 		link:"https://www.dafont.com/marbre-sans.font",
-		img:
+		img:"",
 	}
 	
 	var BickhamScript = {
 		name: "Bickham Script",
 		link:"https://www.fonts.com/font/adobe/bickham-script",
-		img:
+		img:"",
+	
 	}
 
-//font arrays
+//Font arrays
 		var seriousnessArray = ["none", ComicSansMS, Forte, Luna, BrushScriptMT, FreestyleScript, Mistral, HarlowSolidItalic, Impact, Bauhaus93,
 								Haettenschweiler, Muskaters, HighTide, Bebas, LemonMilk, Code, CocomatLight, BerlinSansFB, museoslab500, Consolas, Frutiger,
 								Calibri, Candara, Myriad, CalistoMT, CalifornianFB, Gravity, OpenSans, Raleway, BlairITC, Cocon, Agent, CourierNew, Arial,
@@ -406,9 +407,9 @@
 							DIN, Raleway, Gravity, Arial, CenturyGothic, Futura, Avenir, Bauhaus93, Haettenschweiler, Code, Bebas, Univers, BlairITC];
 
 //Helper variables
-		//var result = []; //Array with the results(output).
 		var index;		//Index of where in the original array the results list should start.
 		var indexOfNewArray = 0; //Helps initialize and fill the result[] array.
+		var finalResArray = [];
 
 
 
@@ -423,17 +424,7 @@
    			
     	}
 
-		//createResultsArray(arrayType); creates the new array with the results -> Creates the output.
-		function createResultsArray(arrayType){
-			if ($.inArray(fontInput, arrayType)){
-
-					for (var i = 0; i < arrayType.length; i++){
-						if (arrayType[i] == fontInput){
-							index = i;
-						}
-					}
-				} 
-		}
+		
 
 
 		// results(chosenArray); prints the output.
@@ -448,11 +439,16 @@
 
 					var result = [];
 					for (var i = index + 1; i < chosenArray.length; i++){
-					result[indexOfNewArray] = chosenArray[i];
+					result[indexOfNewArray] = chosenArray[i]//.name only prints names; //NEW .name addition: it just copies
+																		//The names for now
 					indexOfNewArray++;
 					}
 
-			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": " + result + ".";
+		
+
+		ind = 0;
+	}
+			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": " + /* fix this->*/finalResArray + "."; // make this a loop so it prints the object.name, object.image. and objct.link
    			var paragraph = document.createElement('p');
    			paragraph.textContent = fontsMoreEtc;
    			document.getElementById("resultDiv").appendChild(paragraph);
@@ -460,13 +456,60 @@
   
    			result = 0;
    			indexOfNewArray = 0;
+   			finalResArray = [];
     }
 				
 			
-			}
+			
 			
 		
+//createResultsArray(arrayType); creates the new array with the results -> Creates the output.
+		function createResultsArray(arrayType){
+			/* ORIGINAL THAT WORKS IF THE ARRAY IS JUST STRINGS
+			if ($.inArray(fontInput, arrayType)){
 
+					for (var i = 0; i < arrayType.length; i++){
+						if (arrayType[i] == fontInput){
+							index = i;
+						}
+					}
+				} 
+			*/
+					//TRIAL: goes through all the objects.
+					//If the object at index i matches the user's chosen font,
+					//we get the index to start copying from that to the results array.
+				
+					for (var i = 0; i < arrayType.length; i++){
+						if (arrayType[i].name == fontInput){
+							index = i;
+							console.log(index);
+							
+						}
+
+					}
+
+				
+					var ind = 0;
+					for (var i = index + 1; i<arrayType.length - 1; i++){
+			
+						//finalResArray[ind] = JSON.stringify(arrayType[i],null,4);
+						//ind++;
+						for(let key in arrayType[i]){
+							finalResArray[ind] = arrayType[i][key];
+							ind++;
+						
+					}
+
+						}
+
+					ind = 0;
+
+
+
+
+				
+		
+	}
 
 		function algo(){ //Change this name once I get rid of the original results function.
 		
@@ -504,13 +547,20 @@
 	/*
 
 	function printResults(chosenArray??){
+		var ind = 0;
 		for (var i = 0, i<chosenArray.length-1, i++){
 			
+			finalResArray[i] = JSON.stringify(result[i]);
+			
+
+
 			print object at i index.pic
 			print object at i index.linkto
 			new line
 			i++
 
 		}
+
+		ind = 0;
 	}
 	*/
