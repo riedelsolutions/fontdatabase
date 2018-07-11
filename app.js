@@ -410,6 +410,7 @@
 		var index;		//Index of where in the original array the results list should start.
 		var indexOfNewArray = 0; //Helps initialize and fill the result[] array.
 		var finalResArray = [];
+		var Download = "Download";
 
 
 
@@ -430,7 +431,7 @@
 		// results(chosenArray); prints the output.
 		function results(chosenArray){ 
 
-			if (index >= chosenArray.length - 1){ //if the font the user looked up is the most serious already
+			if (index >= chosenArray.length-1){ //if the font the user looked up is the most serious already
 
 			noneFound();
 
@@ -439,20 +440,42 @@
 
 					var result = [];
 					for (var i = index + 1; i < chosenArray.length; i++){
-					result[indexOfNewArray] = chosenArray[i]//.name only prints names; //NEW .name addition: it just copies
-																		//The names for now
+					result[indexOfNewArray] = chosenArray[i];
 					indexOfNewArray++;
 					}
 
 				ind = 0;
-			}
-
-
-			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": " + /* fix this->*/finalResArray + "."; // make this a loop so it prints the object.name, object.image. and objct.link
-   			var paragraph = document.createElement('p');
+			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": "/* fix this->finalResArray +"."*/; // make this a loop so it prints the object.name, object.image. and objct.link
+   													//^ maybe delete from : on.
+   				
+   			//Prints fontsMoreEtc
+   			var paragraph = document.createElement('p');	
    			paragraph.textContent = fontsMoreEtc;
    			document.getElementById("resultDiv").appendChild(paragraph);
 
+
+				for (var i = 0; i < finalResArray.length; ++i) {
+  					  this["paragraph"+i] = document.createElement('p');
+  					  this["paragraph"+i].textContent = finalResArray[i];
+  					  document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
+  					  i++;
+  					 
+  					  this['link'+i] = document.createElement('a');
+					  this['link'+i].setAttribute('href',finalResArray[i]);
+					  this['link'+i].innerHTML = Download;
+					  document.getElementById("resultDiv").appendChild(this['link'+i]);
+					i++;
+					  this["paragraph"+i] = document.createElement('p');
+  					  this["paragraph"+i].textContent = finalResArray[i];
+  					  document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
+  					  
+
+				}
+
+			}
+
+
+			
   			//resets variables so the user can reuse the program
    			result = 0;
    			indexOfNewArray = 0;
