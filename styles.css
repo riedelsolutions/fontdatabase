@@ -30,6 +30,7 @@ h3{
 	margin-top: 50px;
 	padding-right: 20%;
 	clear: both;
+	max-width: 100%;
 }
 
 ul{
@@ -64,7 +65,7 @@ a{
 	color:white;
 }
 
-p,.goButton{
+p,.goButton, #resetButton{
 	clear:both;
 	color:white;
 }
@@ -77,14 +78,14 @@ p,.goButton{
 
 }
 
-.goButton{
+.goButton, #resetButton{
 	max-width: 100px;
 	background-color: purple;
 	padding: 20px;
 	border: none;
 	margin-left: 30px;
 	border-radius: 40px;
-	-webkit-box-shadow: 11px 9px 52px -15px rgba(0,0,0,0.75);
+	box-shadow: 11px 9px 52px -15px rgba(0,0,0,0.75);
 }
 
 
@@ -105,6 +106,7 @@ select{
 }
 
 
+
 #howto{
 	text-align: center;
 	max-width: 70%;
@@ -121,11 +123,25 @@ p strong{
 	color:black;
 }
 
+#resultDiv{
+	text-align: left;
+	padding-left: 30px;
+}
 #resultDiv a{
 	color: black;
 }
 
+#resultDiv p{
+	padding-left: 30px;
+}
 
+#but{
+	max-width: 200px;
+	margin: auto;
+	align-content: center;
+	position: relative;
+	left:20px;
+}
 
 footer{
 	color:white;
@@ -143,8 +159,26 @@ select{
 	border-radius: 45px;
 }
 
-@media only screen and (max-width: 630px){
+
+#resultDiv img{
+	max-width: 170%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	clear: both;
+	padding-left: none;
+}
+
+@media only screen and (max-width: 650px){
 	nav{
 		display: flex;
+	}
+	.title{
+		margin: auto;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 17px;
 	}
 }
