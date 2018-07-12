@@ -18,366 +18,366 @@
 	var ComicSansMS = {
 		name: "Comic Sans MS",
 		link: "https://www.fonts.com/font/microsoft-corporation/comic-sans",
-		img: "",
+		img: "images/comicsansms.png",
 	}
 
 	var Forte = {
 		name: "Forte",
 		link: "https://catalog.monotype.com/family/monotype/forte",
-		img: "",
+		img: "images/forte.png",
 	}
 
 	var Luna = {
 		name: "Luna",
 		link: "https://www.behance.net/gallery/27812357/LUNA-Free-Font",
-		img:"",
+		img:"images/luna.png",
 	}
 
 	var BrushScriptMT = {
 		name: "Brush Script MT",
 		link: "https://www.fonts.com/font/adobe/brush-script",
-		img:"",
+		img:"images/brushscriptmt.png",
 	}
 
 	var FreestyleScript ={
 		name: "Freestyle Script",
 		link:"https://www.fonts.com/font/adobe/freestyle-script" ,
-		img:"",
+		img:"images/freestylescript.png",
 	}
 
 	var Mistral = {
 		name: "Mistral",
 		link: "https://www.fonts.com/font/adobe/mistral/regular",
-		img:"",
+		img:"images/mistral.png",
 	}
 
 	var HarlowSolidItalic = {
 		name: "Harlow Solid",
 		link:"https://www.fonts.com/font/itc/harlow",
-		img:"",
+		img:"images/harlowsoliditalic.png",
 	}
 
 
 	var Impact = {
 		name: "Impact", 
 		link:"https://www.wfonts.com/font/impact",
-		img:"",
+		img:"images/impact.png",
 	}
 
 	var Bauhaus93 = {
 		name: "Bauhaus 93",
 		link:"https://www.fonts.com/font/urw/bauhaus-93/regular" ,
-		img:"",
+		img:"images/bauhaus93.png",
 	}
 
 	var Haettenschweiler = {
 		name: "Haettenschweiler",
 		link:"https://www.fonts.com/font/microsoft-corporation/haettenschweiler",
-		img:"",
+		img:"images/haettenschweiler.png",
 	}
 
 	var Muskaters = {
 		name: "Muskaters",
 		link:"https://fontbundles.net/font-bundles-store/58592-muskaters-duo-style-font-bonus",
-		img:"",
+		img:"images/muskaters.png",
 	}
 
 	var HighTide = {
 		name: "High Tide",
 		link:"https://blkbk.ink/products/high-tides",
-		img:"",
+		img:"images/hightide.png",
 	}
 
 
 	var Bebas = {
 		name: "Bebas",
 		link:"https://www.dafont.com/bebas.font",
-		img: "",
+		img: "images/bebas.png",
 	}
 
 	var LemonMilk = {
 		name: "LemonMilk",
 		link:"https://www.dafont.com/lemon-milk.font",
-		img: "",
+		img: "images/lemonmilk.png",
 
 	}
 
 	var Code = {
 		name: "Code",
 		link:"http://www.myfonts.com/fonts/font-fabric/code-pro/",
-		img: "",
+		img: "images/code.png",
 	}
 
 	var CocomatLight ={
 		name: "Cocomat Light",
 		link:"https://www.dafont.com/cocomat.font",
-		img:"",
+		img:"images/cocomatlight.png",
 	}
 
 	var BerlinSansFB = {
 		name: "Berlin Sans FB",
 		link:"http://fontsgeek.com/fonts/Berlin-Sans-FB-Regular",
-		img:"",
+		img:"images/berlinsansfb.png",
 	}
 
 	var museoslab500 = {
 		name: "museo slab 500",
 		link:"https://www.myfonts.com/fonts/exljbris/museo-slab/500/",
-		img:"",
+		img:"images/museoslab500.png",
 	}
 
 
 	var Consolas = {
 		name: "Consolas",
 		link:"https://www.microsoft.com/en-us/download/details.aspx?id=17879",
-		img:"",
+		img:"images/consolas.png",
 	}
 
 
 	var Frutiger = {
 		name: "Frutiger",
 		link:"https://www.fonts.com/font/linotype/frutiger/complete-family-pack",
-		img:"",
+		img:"images/frutiger.png",
 	}
 
 	var Calibri = {
 		name: "Calibri",
 		link: "https://docs.microsoft.com/ru-ru/typography/font-list/calibri",
-		img: "",
+		img: "images/calibri.png",
 	}
 
 	var Candara = {
 		name: "Candara",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/candara",
-		img:"",
+		img:"images/candara.png",
 	}
 
 	var Myriad = {
 		name: "Myriad",
 		link:"https://www.fonts.com/font/adobe/myriads",
-		img: "",
+		img: "images/myriad.png",
 	}
 
 	var CalistoMT ={
 		name: "Calisto MT",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/calisto-mt",
-		img: "",
+		img: "images/calistomt.png",
 	}
 
 
 	var CalifornianFB = {
 		name: "CalifornianFB",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/californian-fb",
-		img:"",
+		img:"images/californianfb.png",
 	}
 
 
 	var Gravity = {
 		name: "Gravity",
 		link:"https://www.behance.net/gallery/3407691/Gravity-New-free-font-experiment",
-		img:"",
+		img:"images/gravity.png",
 	}
 
 	var OpenSans = {
 		name: "Open Sans",
 		link:"https://fonts.google.com/specimen/Open+Sans",
-		img:"",
+		img:"images/opensans.png",
 	}
 
 	var Raleway = {
 		name: "Raleway",
 		link:"https://fonts.google.com/specimen/Raleway",
-		img:"",
+		img:"images/raleway.png",
 	}
 
 	var BlairITC ={
 		name: "ITC Blair",
 		link:"https://www.myfonts.com/fonts/itc/blair/",
-		img:"",
+		img:"images/blairitc.png",
 	}
 
 
 	var Cocon = {
 		name: "Cocon",
 		link:"https://www.myfonts.com/fonts/fontfont/ff-cocon/",
-		img:"",
+		img:"images/cocon.png",
 	}
 
 	var Agent = {
 		name: "Agent",
 		link:"https://befonts.com/agent-typeface.html",
-		img:"",
+		img:"images/agent.png",
 	}
 
 	var CourierNew = {
 		name: "Courier New",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/courier-new",
-		img:"",
+		img:"images/couriernew.png",
 	}
 
 	var Arial = {
 		name: "Arial",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/arial",
-		img: "",
+		img: "images/arial.png",
 	}
 
 	var Centaur = {
 		name: "Centaur",
 		link:"https://www.myfonts.com/fonts/mti/centaur/#index",
-		img:"",
+		img:"images/centaur.png",
 	}
 
 	var GillSans = {
 		name: "Gill Sans",
 		link:"https://www.myfonts.com/fonts/mti/gill-sans/",
-		img:"",
+		img:"images/gillsans.png",
 	}
 
 	var MinionPro = {
 		name: "Minion Pro",
 		link:"https://www.myfonts.com/fonts/adobe/minion/",
-		img:"",
+		img:"images/minionpro.png",
 	}
 
 	var Verdana = {
 		name: "Verdana",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/verdana",
-		img:"",
+		img:"images/verdana.png",
 	}
 
 
 	var LetterGothicstd = {
 	  	name: "Letter Gothic std",
 	  	link:"https://www.myfonts.com/fonts/mti/letter-gothic/" ,
-	  	img:"",
+	  	img:"images/lettergothicstd.png",
 	  }
 
 
 	var EncodeSansCondensed = {
 	  	name: "Encode Sans Condensed",
 	  	link:"https://fonts.google.com/specimen/Encode+Sans+Condensed",
-	  	img:"",
+	  	img:"images/encodesanscondensed.png",
 	  }
 
 
 	var Montserrat = {
 		name: "Montserrat",
 		link:"https://fonts.google.com/specimen/Montserrat",
-		img:"",
+		img:"images/montserrat.png",
 	}
 
 	var Roboto = {
 		name: "Roboto",
 		link:"https://fonts.google.com/specimen/Roboto",
-		img:"",
+		img:"images/roboto.png",
 	}
 
 	var DIN = {
 		name: "DIN",
 		link:"https://www.myfonts.com/fonts/fontfont/ff-din/",
-		img:"",
+		img:"images/din.png",
 	}
 
 	var TimesNewRoman = {
 		name: "Times New Roman",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/times-new-roman",
-		img:"",
+		img:"images/timesnewroman.png",
 	}
 
 	var CenturyGothic = {
 		name: "Century Gothic",
 		link:"https://www.myfonts.com/fonts/mti/century-gothic/",
-		img:"",
+		img:"images/centurygothic.png",
 	}
 
 	var FranklinGothicBook = {
 		name: "Franklin Gothic Book",
 		link:"https://www.fonts.com/font/urw/franklin-gothic/book",
-		img:"",
+		img:"images/franklingothicbook.png",
 	}
 
 	var BookAntiqua = {
 		name: "Book Antiqua",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/book-antiqua",
-		img:"",
+		img:"images/bookantiqua.png",
 	}
 
 	var Garamond = {
 		name: "Garamond",
 		link:"https://typekit.com/fonts/adobe-garamond",
-		img:"",
+		img:"images/garamond.png",
 	}
 
 	var Georgia = {
 		name: "Georgia",
 		link:"https://www.myfonts.com/fonts/ascender/georgia/",
-		img:"",
+		img:"images/georgia.png",
 	}
 
 	var Avenir = {
 		name: "Avenir",
 		link:"https://www.myfonts.com/fonts/linotype/avenir/",
-		img:"",
+		img:"images/avenir.png",
 	}
 
 	var FFMetaProHairline = {
 		name: "FF Meta Pro Hairline",
 		link:"https://www.fonts.com/font/fontfont/ff-meta/hairline",
-		img:"",
+		img:"images/ffmetaprohairline.png",
 	}
 
 	var Univers = {
 		name: "Univers",
 		link:"https://www.myfonts.com/fonts/linotype/univers/",
-		img:"",
+		img:"images/univers.png",
 	}
 
 	var Futura = {
 		name: "Futura",
 		link:"https://www.myfonts.com/fonts/bitstream/futura/",
-		img:"",
+		img:"images/futura.png",
 	}
 
 	var Elephant = {
 		name: "Elephant",
 		link:"https://www.fonts.com/font/carter-and-cone/elephant/regular",
-		img:"",
+		img:"images/elephant.png",
 	}
 
 	var BodoniMT = {
 		name: "Bodoni MT",
 		link:"https://docs.microsoft.com/en-us/typography/font-list/bodoni-mt",
-		img:"",
+		img:"images/bodonimt.png",
 	}
 
 	var ModernNo20 = {
 		name: "Modern no. 20",
 		link:"https://www.myfonts.com/fonts/bitstream/modern-no-20/",
-		img:"",
+		img:"images/modernno20.png",
 	}
 	
 	var Didot = {
 		name: "Didot",
 		link:"https://www.myfonts.com/fonts/linotype/didot/",
-		img:"",
+		img:"images/didot.png",
 	}
 
 	var Trajan = {
 		name: "Trajan",
 		link:"https://www.fonts.com/font/adobe/trajan/regular",
-		img:"",	
+		img:"images/trajan.png",	
 	}
 
 	var MarbreSans = {
 		name: "Marbre Sans",
 		link:"https://www.dafont.com/marbre-sans.font",
-		img:"",
+		img:"images/marbresans.png",
 	}
 	
 	var BickhamScript = {
 		name: "Bickham Script",
 		link:"https://www.fonts.com/font/adobe/bickham-script",
-		img:"",
+		img:"images/bickhamscript.png",
 
 	}
 
@@ -437,7 +437,6 @@
 
 
 			} else { // if it isn't, it prints the rest
-
 					var result = [];
 					for (var i = index + 1; i < chosenArray.length; i++){
 					result[indexOfNewArray] = chosenArray[i];
@@ -455,19 +454,26 @@
 
 
 				for (var i = 0; i < finalResArray.length; ++i) {
-  					  this["paragraph"+i] = document.createElement('p');
-  					  this["paragraph"+i].textContent = finalResArray[i];
-  					  document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
+  					  //this["paragraph"+i] = document.createElement('p');
+  					  //this["paragraph"+i].textContent = finalResArray[i];
+  					 // document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
+  					 this["paragraph"+i] = document.createElement('p');
+  					  this["paragraph"+i].textContent = "\n";
+  					 document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
   					  i++;
   					 
   					  this['link'+i] = document.createElement('a');
 					  this['link'+i].setAttribute('href',finalResArray[i]);
+					 //this['link'+i].setAttribute('attribute', 'target = "_blank"');
 					  this['link'+i].innerHTML = Download;
 					  document.getElementById("resultDiv").appendChild(this['link'+i]);
 					i++;
-					  this["paragraph"+i] = document.createElement('p');
+					  /*this["paragraph"+i] = document.createElement('p');
   					  this["paragraph"+i].textContent = finalResArray[i];
-  					  document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
+  					  document.getElementById("resultDiv").appendChild(this["paragraph"+i]);*/
+  					  this['image'+i] = document.createElement("IMG");
+   					  this['image'+i].setAttribute("src", finalResArray[i]);
+   					  document.getElementById("resultDiv").appendChild(this['image'+i]);
   					  
 
 				}
@@ -488,17 +494,7 @@
 		
 //createResultsArray(arrayType); creates the new array with the results -> Creates the output.
 		function createResultsArray(arrayType){
-			/* ORIGINAL THAT WORKS IF THE ARRAY IS JUST STRINGS
-			if ($.inArray(fontInput, arrayType)){
-
-					for (var i = 0; i < arrayType.length; i++){
-						if (arrayType[i] == fontInput){
-							index = i;
-						}
-					}
-				} 
-			*/
-					//TRIAL: goes through all the objects.
+					//Goes through all the objects.
 					//If the object at index i matches the user's chosen font,
 					//we get the index to start copying from that to the results array.
 				
@@ -511,12 +507,10 @@
 
 					}
 
-				
+					//Creates array with each object quality as a component = Array with all the results.
 					var ind = 0;
 					for (var i = index + 1; i<arrayType.length - 1; i++){
 			
-						//finalResArray[ind] = JSON.stringify(arrayType[i],null,4);
-						//ind++;
 						for(let key in arrayType[i]){
 							finalResArray[ind] = arrayType[i][key];
 							ind++;
@@ -565,4 +559,16 @@
 			}
 
 
+	}
+
+//Fix/resolve these:
+
+	function resetDiv(){
+		document.getElementById("resultDiv").innerHTML = "";
+	}
+
+	document.getElementById('but').style.display  = 'none';
+
+	function resetButtonAppear(){
+		document.getElementById('but').style.display  = 'block';
 	}
