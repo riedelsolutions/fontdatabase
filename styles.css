@@ -33,12 +33,7 @@ h3{
 	max-width: 100%;
 }
 
-ul{
-	display: inline;
-}
-li{
-	display: inline;
-}
+
 
 #logo{
 	max-width: 70px;
@@ -54,10 +49,18 @@ nav{
 	font-size: 17px;
 	font-weight: lighter;
 	display: flex;
-    justify-content:space-around;
+	justify-content: space-around;
     padding: 10px;
     box-shadow: 10px 13px 37px -12px rgba(0,0,0,0.75);
     margin-top: 30px;
+}
+
+
+ul{
+	display: inline;
+}
+li{
+	display: inline;
 }
 
 a{
@@ -173,6 +176,7 @@ select{
 	clear: both;
 	position: relative;
 	text-align: right;
+	padding-right: 30px;
 }
 
 #support img{
@@ -191,17 +195,57 @@ select{
 	top:4%;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 1149px){
 	nav{
-		display: flex;
+		font-size: 14px;
+	}
+}
+
+
+@media only screen and (max-width: 944px){
+
+	nav{
+			font-size: 8px;
+			justify-content: center;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	nav{
+		
+		font-size: 10px;
 	}
 	.title{
 		margin: auto;
+		max-width: 70%;
 	}
 	h1{
 		font-size: 40px;
 	}
 	h2{
 		font-size: 17px;
+	}
+}
+
+
+
+@media only screen and (max-width: 560px){
+	nav{
+		font-size: 8px;
+	}
+
+	li{
+		display: flex;
+	}
+}
+
+
+
+@media only screen and (max-width: 425px){
+	nav{
+		
+		font-size: 6px;
 	}
 }
