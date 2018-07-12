@@ -168,6 +168,29 @@ select{
 	padding-left: none;
 }
 
+#support{
+	float: right;
+	clear: both;
+	position: relative;
+	text-align: right;
+}
+
+#support img{
+	padding: 20px;
+}
+#kofi,#paypal,#patreon{
+	display: inline-flex;
+	max-width:200px;
+	height: 200px;
+	padding:20px;
+	text-align: center;
+}
+
+#paypal img{
+	position: relative;
+	top:4%;
+}
+
 @media only screen and (max-width: 650px){
 	nav{
 		display: flex;
