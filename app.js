@@ -561,14 +561,6 @@
 
 	}
 
-//Fix/resolve these:
-
 	function resetDiv(){
 		document.getElementById("resultDiv").innerHTML = "";
-	}
-
-	document.getElementById('but').style.display  = 'none';
-
-	function resetButtonAppear(){
-		document.getElementById('but').style.display  = 'block';
 	}
