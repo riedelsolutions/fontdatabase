@@ -1,3 +1,16 @@
+//nightmode
+function original(){
+            body.className='day';
+            document.getElementById("regularMode").style.display = "none";
+            document.getElementById("nightMode").style.display = "block";
+        }
+function night(){
+            body.className='night';
+              document.getElementById("regularMode").style.display = "block";
+            document.getElementById("nightMode").style.display = "none";
+}
+
+
 //Setting up the variables
 		var fontCharacteristic;
 		var fontInput;
@@ -380,7 +393,44 @@
 		img:"images/bickhamscript.png",
 
 	}
+	//Newer fonts
+	var AgencyFB = {
+		name: "Agency FB",
+		link: "http://allfont.net/download/agency-fb/",
+		img:"images/agencyfb.png",
+	}
 
+	var Asgalt = {
+		name: "Asgalt",
+		link: "",
+		img: "images/asgalt.png",
+	}
+
+	var NeotericBold = {
+		name: "NEOTERIC Bold",
+		link: "",
+		img: "images/neotericbold.png",
+	}
+
+	var BlackladderITC = {
+		name:"Blackladder ITC",
+		link: "",
+		img:"images/blackladderitc.png",
+	}
+
+	var MagnetoBold = {
+		name: "Magneto Bold",
+		link: "",
+		img: "images/magnetobold.png",
+	}
+
+	var ToxTypewriter = {
+		name: "Tox Typewriter",
+		link:"",
+		img:"images/toxtypewriter.png",
+	}
+
+	
 //Font arrays
 		var seriousnessArray = ["none", ComicSansMS, Forte, Luna, BrushScriptMT, FreestyleScript, Mistral, HarlowSolidItalic, Impact, Bauhaus93,
 								Haettenschweiler, Muskaters, HighTide, Bebas, LemonMilk, Code, CocomatLight, BerlinSansFB, museoslab500, Consolas, Frutiger,
@@ -431,10 +481,9 @@
 		// results(chosenArray); prints the output.
 		function results(chosenArray){ 
 
-			if (index >= chosenArray.length-1){ //if the font the user looked up is the most serious already
+			if (index >= chosenArray.length-1){ //if the font the user looked up is the most w/e already
 
 			noneFound();
-
 
 			} else { // if it isn't, it prints the rest
 					var result = [];
@@ -444,8 +493,8 @@
 					}
 
 				ind = 0;
-			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": "/* fix this->finalResArray +"."*/; // make this a loop so it prints the object.name, object.image. and objct.link
-   													//^ maybe delete from : on.
+			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": "; 
+   													
    				
    			//Prints fontsMoreEtc
    			var paragraph = document.createElement('p');	
@@ -454,9 +503,7 @@
 
 
 				for (var i = 0; i < finalResArray.length; ++i) {
-  					  //this["paragraph"+i] = document.createElement('p');
-  					  //this["paragraph"+i].textContent = finalResArray[i];
-  					 // document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
+  					  
   					 this["paragraph"+i] = document.createElement('p');
   					  this["paragraph"+i].textContent = "\n";
   					 document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
@@ -464,13 +511,10 @@
   					 
   					  this['link'+i] = document.createElement('a');
 					  this['link'+i].setAttribute('href',finalResArray[i]);
-					 //this['link'+i].setAttribute('attribute', 'target = "_blank"');
 					  this['link'+i].innerHTML = Download;
 					  document.getElementById("resultDiv").appendChild(this['link'+i]);
 					i++;
-					  /*this["paragraph"+i] = document.createElement('p');
-  					  this["paragraph"+i].textContent = finalResArray[i];
-  					  document.getElementById("resultDiv").appendChild(this["paragraph"+i]);*/
+					  
   					  this['image'+i] = document.createElement("IMG");
    					  this['image'+i].setAttribute("src", finalResArray[i]);
    					  document.getElementById("resultDiv").appendChild(this['image'+i]);
@@ -548,7 +592,7 @@
 				results(serifArray);
 
 				
-			} else if (fontCharacteristic == "sansserif"){ //If the user looks for more formal fonts, we create the sans serif results array 
+			} else if (fontCharacteristic == "minimal"){ //If the user looks for more formal fonts, we create the sans serif results array 
 
 				createResultsArray(sansSerifArray);
 				results(sansSerifArray);
