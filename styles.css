@@ -1,9 +1,11 @@
+
 *{
 	font-family: Open Sans, sans-serif;
 }
 
 body{
-	background-color: #d61353;
+	/* ORIGINAL :background-color: #d61353;*/
+	background-color: #a50b3e;
 }
 
 h1{
@@ -33,8 +35,6 @@ h3{
 	max-width: 100%;
 }
 
-
-
 #logo{
 	max-width: 70px;
 	float: left;
@@ -42,7 +42,7 @@ h3{
 }
 
 nav{
-	background-color: purple;
+	background-color: #5e005e;
 	border-radius: 50px;
 	max-width: 90%;
 	color:white;
@@ -55,6 +55,79 @@ nav{
     margin-top: 30px;
 }
 
+.night{
+            background: black;
+            color:white;
+        }
+
+
+.day{
+    background: #a50b3e;
+   }
+
+.night h2, .night h1, .night #interface{
+	color:white;
+}
+
+.night select{
+	background-color: black;
+	border: none;
+}
+
+.night #resultDiv a {
+	color:white;
+
+}
+
+#nightMode{
+	
+}
+
+#regularMode{
+	display:none;
+}
+
+#nightMode,#regularMode{
+	float:right;
+}
+
+#nightMode{
+	border: none;
+	border-radius: 9px;
+	box-shadow:10px 13px 37px -12px rgba(0,0,0,0.75);
+	background-color:transparent;
+	color:white;
+	padding:4px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.night #howto a, .night strong {
+	color:white;
+}
+#regularMode{
+	border: none;
+	border-radius: 9px;
+	background-color: transparent;
+	color:white;
+	color:white;
+	padding:4px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.mformodes{
+	padding-right: 1px;
+	position:relative;
+	top:5px;
+}
+
+
+.buttonForModes{
+	margin-bottom:10px;
+}
 
 ul{
 	display: inline;
@@ -83,14 +156,13 @@ p,.goButton, #resetButton{
 
 .goButton, #resetButton{
 	max-width: 100px;
-	background-color: purple;
+	background-color: #5e005e;
 	padding: 20px;
 	border: none;
 	margin-left: 30px;
 	border-radius: 40px;
 	box-shadow: 11px 9px 52px -15px rgba(0,0,0,0.75);
 }
-
 
 #results{
 	font-size: 16px;
@@ -101,14 +173,13 @@ p,.goButton, #resetButton{
 
 select{
 	position: relative;
-	border-color: #f9cada;
-	background-color:#d61353;
+	border: none;
+	/*background-color:#d61353;*/
+	background-color: #a50b3e;
 	color: white;
 	height: 35px;
 	text-align: center;
 }
-
-
 
 #howto{
 	text-align: center;
@@ -131,7 +202,9 @@ p strong{
 	padding-left: 30px;
 }
 #resultDiv a{
-	color: black;
+	color: white;
+	font-size: 14px;
+	float: right;
 }
 
 #resultDiv p{
@@ -151,6 +224,10 @@ footer{
 	text-align: center;
 	clear:both;
 	margin-top: 130px;
+}
+
+#madeBy{
+	font-size: 11px;
 }
 
 footer a{
@@ -229,8 +306,6 @@ select{
 	}
 }
 
-
-
 @media only screen and (max-width: 560px){
 	nav{
 		font-size: 8px;
@@ -241,11 +316,8 @@ select{
 	}
 }
 
-
-
 @media only screen and (max-width: 425px){
-	nav{
-		
+	nav{	
 		font-size: 6px;
 	}
 }
