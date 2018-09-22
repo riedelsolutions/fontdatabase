@@ -402,35 +402,84 @@ function night(){
 
 	var Asgalt = {
 		name: "Asgalt",
-		link: "",
+		link: "https://www.dafont.com/asgalt.font",
 		img: "images/asgalt.png",
 	}
 
 	var NeotericBold = {
 		name: "NEOTERIC Bold",
-		link: "",
+		link: "https://www.dafont.com/neoteric.font",
 		img: "images/neotericbold.png",
 	}
 
 	var BlackladderITC = {
 		name:"Blackladder ITC",
-		link: "",
+		link: "https://docs.microsoft.com/en-us/typography/font-list/blackadder-itc#blackadder-itc",
 		img:"images/blackladderitc.png",
 	}
 
 	var MagnetoBold = {
 		name: "Magneto Bold",
-		link: "",
+		link: "https://fontzone.net/font-details/magneto-bold",
 		img: "images/magnetobold.png",
 	}
 
 	var ToxTypewriter = {
 		name: "Tox Typewriter",
-		link:"",
+		link:"https://www.dafont.com/tox-typewriter.font",
 		img:"images/toxtypewriter.png",
 	}
 
-	
+	var Bahnschrift = {
+		name: "Bahnschrift",
+		link: "",
+		img: "images/bahnschrift.png",
+	}
+
+	var BaskervilleOldFace = {
+		name: "Baskerville Old Face",
+		link: "https://www.myfonts.com/fonts/urw/baskerville-old-face/alternate_cuts.html",
+		img: "images/baskervilleoldface.png",
+	}
+
+	var ErasBoldITC = {
+		name: "Eras Bold ITC",
+		link: "https://www.dafontfree.net/freefonts-eras-bold-itc-f123435.htm",
+		img: "images/erasbolditc.png",
+	}
+
+	var Ebrima = {
+		name: "Ebrima",
+		link: "https://fontzone.net/font-details/ebrima",
+		img: "images/ebrima.png",
+	}
+
+	var Constantia = {
+		name: "Constantia",
+		link: "https://docs.microsoft.com/en-us/typography/font-list/constantia",
+		img: "images/constantia.png",
+	}
+
+	var Corbel = {
+		name: "Corbel",
+		link: "https://www.fonts.com/font/microsoft-corporation/corbel",
+		img: "images/corbel.png",
+	}
+
+	var Rockwell = {
+		name: "Rockwell",
+		link: "https://www.myfonts.com/fonts/mti/rockwell/",
+		img: "images/rockwell.png",
+	}
+
+	var BrittanicBold = {
+		name: "BrittanicBold",
+		link: "http://fontsgeek.com/fonts/Britannic-Bold-Regular",
+		img: "images/brittanicbold.png",
+	}
+
+
+
 //Font arrays
 		var seriousnessArray = ["none", ComicSansMS, Forte, Luna, BrushScriptMT, FreestyleScript, Mistral, HarlowSolidItalic, Impact, Bauhaus93,
 								Haettenschweiler, Muskaters, HighTide, Bebas, LemonMilk, Code, CocomatLight, BerlinSansFB, museoslab500, Consolas, Frutiger,
