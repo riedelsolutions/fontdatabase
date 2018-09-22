@@ -393,7 +393,7 @@ function night(){
 		img:"images/bickhamscript.png",
 
 	}
-	//Newer fonts
+
 	var AgencyFB = {
 		name: "Agency FB",
 		link: "http://allfont.net/download/agency-fb/",
@@ -481,28 +481,30 @@ function night(){
 
 
 //Font arrays
-		var seriousnessArray = ["none", ComicSansMS, Forte, Luna, BrushScriptMT, FreestyleScript, Mistral, HarlowSolidItalic, Impact, Bauhaus93,
-								Haettenschweiler, Muskaters, HighTide, Bebas, LemonMilk, Code, CocomatLight, BerlinSansFB, museoslab500, Consolas, Frutiger,
-								Calibri, Candara, Myriad, CalistoMT, CalifornianFB, Gravity, OpenSans, Raleway, BlairITC, Cocon, Agent, CourierNew, Arial,
-								Centaur, GillSans, MinionPro, Verdana, LetterGothicstd, EncodeSansCondensed, Montserrat, Roboto, DIN, TimesNewRoman,
-								CenturyGothic, FranklinGothicBook, BookAntiqua, Garamond, Georgia, Avenir, FFMetaProHairline, Univers, Futura, Elephant,
+		var seriousnessArray = ["none", BlackladderITC, ComicSansMS, Forte, Luna, BrushScriptMT, FreestyleScript, Mistral, HarlowSolidItalic, MagnetoBold, Impact, BrittanicBold, Bauhaus93,
+								Haettenschweiler, Muskaters, HighTide, ToxTypewriter, ErasBoldITC, Bebas, LemonMilk, Code, CocomatLight, BerlinSansFB, Bahnschrift, museoslab500, Constantia, Consolas, Ebrima, Corbel, Frutiger,
+								Calibri, Candara, Myriad, CalistoMT, CalifornianFB, Asgalt, Gravity, OpenSans, Raleway, Rockwell, BlairITC, AgencyFB, Cocon, Agent, CourierNew, Arial,
+								Centaur, GillSans, MinionPro, Verdana, BaskervilleOldFace, LetterGothicstd, EncodeSansCondensed, Montserrat, Roboto, DIN, TimesNewRoman,
+								CenturyGothic, FranklinGothicBook, BookAntiqua, Garamond, Georgia, Avenir, FFMetaProHairline, NeotericBold,Univers, Futura, Elephant,
 								BodoniMT, ModernNo20, Didot, Trajan, MarbreSans, BickhamScript];
 
-		var informalArray = ["none", BickhamScript, MarbreSans, Trajan, Didot, ModernNo20, BodoniMT, Elephant, Futura, Univers, FFMetaProHairline, Avenir,
+		var informalArray = ["none", BickhamScript, MarbreSans, Trajan, Didot, ModernNo20, BodoniMT, Elephant, Futura, Univers, NeotericBold, FFMetaProHairline, Avenir,
 							Georgia, Garamond, BookAntiqua, FranklinGothicBook, CenturyGothic, TimesNewRoman, DIN, Roboto, Montserrat, EncodeSansCondensed,
-							LetterGothicstd, Verdana, MinionPro, GillSans, Centaur, Arial, CourierNew, Agent, Cocon, BlairITC, Raleway, OpenSans, Gravity,
-							CalifornianFB, CalistoMT, Myriad, Candara, Calibri, Frutiger, Consolas, museoslab500, BerlinSansFB, CocomatLight, Code, LemonMilk,
-							Bebas, HighTide, Muskaters, Haettenschweiler, Bauhaus93, Impact, HarlowSolidItalic, Mistral, FreestyleScript, BrushScriptMT,
-							Luna, Forte, ComicSansMS];
+							LetterGothicstd, BaskervilleOldFace, Verdana, MinionPro, GillSans, Centaur, Arial, CourierNew, Agent, Cocon, AgencyFB, BlairITC, Rockwell, Raleway, OpenSans, Gravity, Asgalt,
+							CalifornianFB, CalistoMT, Myriad, Candara, Calibri, Frutiger, Corbel, Ebrima, Consolas, Constantia, museoslab500,Bahnschrift, BerlinSansFB, CocomatLight, Code, LemonMilk,
+							Bebas, ErasBoldITC, ToxTypewriter,HighTide, Muskaters, Haettenschweiler, Bauhaus93, BrittanicBold,Impact, MagnetoBold,HarlowSolidItalic, Mistral, FreestyleScript, BrushScriptMT,
+							Luna, Forte, ComicSansMS, BlackladderITC];
+
 		var serifArray = ["none", BlairITC, Univers, Bebas, Code, Haettenschweiler, Bauhaus93, Avenir, Futura, CenturyGothic, Arial, Gravity, Raleway, DIN,
-						FFMetaProHairline, OpenSans, LemonMilk, MarbreSans, Cocon, ComicSansMS, Consolas, EncodeSansCondensed, Calibri, Roboto, FranklinGothicBook,
-						Montserrat, CocomatLight, Verdana, Frutiger, LetterGothicstd, Impact, GillSans, BerlinSansFB, Candara, Myriad, CourierNew, CalistoMT,
-						CalifornianFB, Elephant, BodoniMT, ModernNo20, MinionPro, museoslab500, BookAntiqua, Garamond, Georgia, TimesNewRoman, Centaur, Trajan,
-						Didot, HarlowSolidItalic, Agent, Forte, Luna, Mistral, BrushScriptMT, FreestyleScript, Muskaters, HighTide, BickhamScript ];
-		var sansSerifArray = ["none", BickhamScript, HighTide, Muskaters, FreestyleScript, BrushScriptMT, Mistral, Luna, Forte, Agent, HarlowSolidItalic, Didot,
-							Trajan, Centaur, TimesNewRoman, Georgia, Garamond, BookAntiqua, museoslab500, MinionPro, ModernNo20, BodoniMT, Elephant, CalifornianFB,
-							CalistoMT, CourierNew, Myriad, Candara, BerlinSansFB, GillSans, Impact, LetterGothicstd, Frutiger, Verdana, CocomatLight, Montserrat,
-							FranklinGothicBook, Roboto, Calibri, EncodeSansCondensed, Consolas, ComicSansMS, Cocon, MarbreSans, LemonMilk, OpenSans, FFMetaProHairline,
+						FFMetaProHairline, NeotericBold,OpenSans, LemonMilk, ErasBoldITC, AgencyFB,MarbreSans,BrittanicBold,Asgalt, Cocon, ComicSansMS, Consolas, EncodeSansCondensed, Calibri, Roboto, FranklinGothicBook,
+						Montserrat, CocomatLight, Verdana, Bahnschrift,Frutiger, Corbel, Ebrima,LetterGothicstd, Impact,Constantia, GillSans, BerlinSansFB, Candara, Myriad, CourierNew, CalistoMT,
+						CalifornianFB, Rockwell,Elephant, BodoniMT, ModernNo20, MinionPro, museoslab500, BookAntiqua, Garamond, BaskervilleOldFace,Georgia, ToxTypewriter,TimesNewRoman, Centaur, Trajan,
+						Didot, HarlowSolidItalic, Agent, Forte, Luna, MagnetoBold,Mistral, BrushScriptMT, FreestyleScript, Muskaters, HighTide, BlackladderITC,BickhamScript ];
+		
+		var sansSerifArray = ["none", BickhamScript, BlackladderITC,HighTide, Muskaters, FreestyleScript, BrushScriptMT, Mistral, MagnetoBold,Luna, Forte, Agent, HarlowSolidItalic, Didot,
+							Trajan, Centaur, TimesNewRoman, ToxTypewriter ,Georgia, BaskervilleOldFace,Garamond, BookAntiqua, museoslab500, MinionPro, ModernNo20, BodoniMT, Elephant, Rockwell,CalifornianFB,
+							CalistoMT, CourierNew, Myriad, Candara, BerlinSansFB, GillSans, Constantia,Impact, LetterGothicstd, Corbel, Ebrima, Frutiger, Bahnschrift, Verdana, CocomatLight, Montserrat,
+							FranklinGothicBook, Roboto, Calibri, EncodeSansCondensed, Consolas, ComicSansMS, Cocon,Asgalt,BrittanicBold, MarbreSans,AgencyFB, ErasBoldITC, LemonMilk, OpenSans, NeotericBold,FFMetaProHairline,
 							DIN, Raleway, Gravity, Arial, CenturyGothic, Futura, Avenir, Bauhaus93, Haettenschweiler, Code, Bebas, Univers, BlairITC];
 
 //Helper variables
