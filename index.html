@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126185350-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126185350-1');
+</script>
 	<title>FontDatabase</title>
 	<link rel = "stylesheet" href = "styles.css">
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&amp;subset=latin-ext" rel="stylesheet">
 	<meta name  = "viewport" content= "width =device-width, initial-scale =1.0">
-	<!--add favicon-->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<meta name="description" content="The hassle of font-hunting, gone.">
 
 </head>
 
 <body>
 
-	<img src = "images/logo.png" alt = "fontdatabase logo" id ="logo">
+	<a href = "index"><img src = "images/logo.png" alt = "fontdatabase logo" id ="logo"></a>
 	<nav>
 		<ul>
-			<li><a href = "index.html">Fontdatabase</a></li>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<li><a href = "about.html">How does it work?</a></li>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<li><a href = "supportus.html">Support us!</a></li>
+			<li><a href = "index">Fontdatabase</a></li>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href = "about">How does it work?</a></li>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href = "supportus">Support us!</a></li>
 		</ul>
 	</nav>
 
@@ -46,16 +56,22 @@
 		 than 
 		<select id = "font" onchange="setFont()">
 			<option selected disabled>Choose a font</option>
+			<option value = "Agency FB">Agency FB</option>
 			<option value = "Agent">Agent</option>
 			<option value = "Arial">Arial</option>
+			<option value = "Asgalt">Asgalt</option>
 			<option value = "Avenir">Avenir</option>
+			<option value = "Bahnschrift">Bahnschrift</option>
+			<option value = "Baskerville Old Face">Baskerville Old Face</option>
 			<option value = "Bauhaus 93">Bauhaus 93</option>
 			<option value = "Bebas">Bebas</option>
 			<option value = "Berlin Sans FB">Berlin Sans FB</option>
 			<option value = "Bickham Script">Bickham Script</option>
+			<option value = "Blackladder ITC">Blackladder ITC</option>
 			<option value = "Blair ITC">Blair ITC</option>
 			<option value = "Bodoni MT">Bodoni MT</option>
 			<option value = "Book Antiqua">Book Antiqua</option>
+			<option value = "Brittanic Bold">Brittanic Bold</option>
 			<option value = "Brush Script MT">Brush Script MT</option>
 			<option value = "Calibri">Calibri</option>
 			<option value = "Californian FB">Californian FB</option>
@@ -68,11 +84,15 @@
 			<option value = "Code">Code</option>
 			<option value = "Comic Sans MS">Comic Sans MS</option>
 			<option value = "Consolas">Consolas</option>
+			<option value = "Constantia">Constantia</option>
+			<option value = "Corbel">Corbel</option>
 			<option value = "Courier New">Courier New</option>
 			<option value = "DIN">DIN</option>
 			<option value = "Didot">Didot</option>
+			<option value = "Ebrima">Ebrima</option>
 			<option value = "Elephant">Elephant</option>
 			<option value = "Encode Sans Condensed">Encode Sans Condensed</option>
+			<option value = "Eras Bold ITC">Eras Bold ITC</option>
 			<option value = "FF Meta Pro Hairline">FF Meta Pro Hairline</option>
 			<option value = "Forte">Forte</option>
 			<option value = "Franklin Gothic Book">Franklin Gothic Book</option>
@@ -90,6 +110,7 @@
 			<option value = "LemonMilk">LemonMilk</option>
 			<option value = "Letter Gothic std">Letter Gothic std</option>
 			<option value = "Luna">Luna</option>
+			<option value = "Magneto Bold">Magneto Bold</option>
 			<option value = "Marbre Sans">Marbre Sans</option>
 			<option value = "Minion Pro">Minion Pro</option>
 			<option value = "Mistral">Mistral</option>
@@ -99,12 +120,15 @@
 			<option value = "Muskaters">Muskaters</option>
 			<option value = "Myriad">Myriad</option>
 			<option value = "Open Sans">Open Sans</option>
+			<option value = "NEOTERIC Bold">NEOTERIC Bold</option>
 			<option value = "Raleway">Raleway</option>
 			<option value = "Roboto">Roboto</option>
+			<option value = "Rockwell">Rockwell</option>
 			<option value = "Times New Roman">Times New Roman</option>
 			<option value = "Trajan">Trajan</option>
 			<option value = "Univers">Univers</option>
 			<option value = "Verdana">Verdana</option>
+			<option value = "Tox Typewriter">Tox Typewriter</option>
 
 		</select>
 			<button class = "goButton" onclick="resetDiv();algo();">Go!</button>
