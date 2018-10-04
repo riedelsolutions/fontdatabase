@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126185350-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-126185350-1');
-</script>
 	<title>FontDatabase</title>
 	<link rel = "stylesheet" href = "styles.css">
 	<meta charset="utf-8">
@@ -20,7 +12,7 @@
 
 </head>
 
-<body>
+<body id = "body">
 
 	<a href = "index"><img src = "images/logo.png" alt = "fontdatabase logo" id ="logo"></a>
 	<nav>
@@ -51,7 +43,7 @@
   	  		<option value= "formal">formal</option>
    	 		<option value = "informal">informal</option>
   	  		<option value = "serif">serif</option>
-  	  		<option value = "sansserif">minimal</option>
+  	  		<option value = "minimal">minimal</option>
 		</select>
 		 than 
 		<select id = "font" onchange="setFont()">
@@ -139,6 +131,10 @@
 <footer>
 	<a href = "https://www.twitter.com/themcomp"><img src = "images/twitterbn.png" id = "twitter"></a> or <a href = "mailto:contactthemcompany@gmail.com">contact us.</a>
 </footer>
-		
+		<div class="modes">
+            <button type="button" onclick="night()" class="buttonForModes" id = "nightMode">Night <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+			<button type="button" onclick="original()" class="buttonForModes" id = "regularMode">Regular <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+     </div>
+
 </body>
 </html>
