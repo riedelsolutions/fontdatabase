@@ -1,4 +1,4 @@
-# fontdatabase
+# FontDatabase.app
 [FontDatabase.app](https://fontdatabase.app) removes the hassle of finding the perfect font.
 
 
