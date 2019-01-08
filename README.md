@@ -10,13 +10,13 @@ FontDatabase lets you input the font you have in mind, and a parameter— Do you
 
 FontDatabase is the first product I made for my tech startup, [The M Company](https://TheMComp.com).
 
-##Why not...?
+## Why not...?
 FontDatabase isn't the only font suggestion tool that exists. It wasn't the first, and plenty more came after. So **what makes FontDatabase.app uniquely useful?**
 
 Most tools use open font library APIs to give you a randomized suggestion. FontDatabase has a (as the name says) unique, manually curated database that suggests fonts that are actually useful for designers. I used my years of experience as a designer to slim down the choices so you get *only* useful results, consequently getting rid of the hassle of looking through hundreds and hundreds of useless fonts. 
 
 
-##Why isn't [X Font] in here?
+## Why isn't [X Font] in here?
 Since the database is manually curated, and there are potentially millions of fonts that could be in it, you most likely will eventually find that one of your favourite fonts isn't on the site. Please let us know and I'll add it in! You can reach me on [The M Company's Twitter](https://www.twitter.com/TheMComp) or via [email](mailto:contactthemcompany@gmail.com).
 
 ##FontDatabase featured on..
