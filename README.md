@@ -19,10 +19,11 @@ Most tools use open font library APIs to give you a randomized suggestion. FontD
 ## Why isn't [X Font] in here?
 Since the database is manually curated, and there are potentially millions of fonts that could be in it, you most likely will eventually find that one of your favourite fonts isn't on the site. Please let us know and I'll add it in! You can reach me on [The M Company's Twitter](https://www.twitter.com/TheMComp) or via [email](mailto:contactthemcompany@gmail.com).
 
-##FontDatabase featured on..
+## FontDatabase featured on..
 [WWWhat's new?](https://wwwhatsnew.com/2018/07/15/fontdatabase-una-web-para-encontrar-fuentes-partiendo-de-una-fuente-concreta/)
 [Periodismo.com]https://www.periodismo.com/2018/08/15/como-encontrar-tipografias-a-partir-de-una-que-ya-conocemos/
 [Product Hunt](https://www.producthunt.com/posts/fontdatabase)
 [TekCrispy](https://www.tekcrispy.com/2018/07/16/fontdatabase/)
+
 
 Thank you for checking out FontDatabase.app!
