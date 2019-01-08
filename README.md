@@ -21,8 +21,11 @@ Since the database is manually curated, and there are potentially millions of fo
 
 ## FontDatabase featured on..
 [WWWhat's new?](https://wwwhatsnew.com/2018/07/15/fontdatabase-una-web-para-encontrar-fuentes-partiendo-de-una-fuente-concreta/)
+
 [Periodismo.com](https://www.periodismo.com/2018/08/15/como-encontrar-tipografias-a-partir-de-una-que-ya-conocemos/)
+
 [Product Hunt](https://www.producthunt.com/posts/fontdatabase)
+
 [TekCrispy](https://www.tekcrispy.com/2018/07/16/fontdatabase/)
 
 
