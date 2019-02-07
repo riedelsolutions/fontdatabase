@@ -1,3 +1,13 @@
+//burger menu toggle
+
+function menu(){
+	if (document.getElementById("mobilemenu").className = "toHide"){
+		document.getElementById("mobilemenu").className = "toDisplay";
+	}else{
+		document.getElementById("mobilemenu").className = "toDisplay";
+	}
+}
+
 //nightmode
 function original(){
             body.className='day';

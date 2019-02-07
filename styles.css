@@ -58,6 +58,16 @@ nav a{
 	color:black;
 }
 
+
+.toDisplay{
+	display:block;
+	z-index: 2;
+}
+
+.toHide{
+	display: none;
+}
+
 .night{
             background: black;
             color:white;
@@ -72,18 +82,22 @@ nav a{
 	color:white;
 }
 
+#interface select{
+	color:#ffeaf6;
+}
+
 .night select{
-	background-color: black;
+	background-color: #282828;
 	border: none;
+}
+
+.night #interface select{
+	color:white;
 }
 
 .night #resultDiv a {
 	color:white;
 
-}
-
-#nightMode{
-	
 }
 
 #regularMode{
@@ -182,11 +196,11 @@ p,.goButton, #resetButton{
 select{
 	position: relative;
 	border: none;
-	/*background-color:#d61353;*/
-	background-color: #a50b3e;
-	color: white;
+	background-color: #a03357;
 	height: 35px;
 	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 #howto{
@@ -235,7 +249,7 @@ footer{
 }
 
 .madeBy{
-	font-size: 11px;
+	font-size: 9px;
 }
 
 footer a{
@@ -243,8 +257,8 @@ footer a{
 }
 
 select{
-	width: 200px;
-	border-radius: 45px;
+	width: 300px;
+	border-radius: 7px;
 }
 
 
@@ -288,20 +302,11 @@ select{
 
 
 @media only screen and (max-width: 944px){
-
-	nav{
-			font-size: 8px;
-			justify-content: center;
-	}
 }
 
 
 
 @media only screen and (max-width: 768px){
-	nav{
-		
-		font-size: 10px;
-	}
 	.title{
 		margin: auto;
 		max-width: 70%;
@@ -315,16 +320,13 @@ select{
 }
 
 @media only screen and (max-width: 560px){
-	nav{
-		font-size: 8px;
-	}
 
 	li{
 		display: flex;
 	}
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 600px){
 	nav{	
 		display: none;
 	}
