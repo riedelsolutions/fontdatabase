@@ -6,17 +6,22 @@
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&amp;subset=latin-ext" rel="stylesheet">
 	<meta name  = "viewport" content= "width =device-width, initial-scale =1.0">
-	<!--add favicon-->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+
 </head>
-<body>
-	<img src = "images/logo.png" alt = "fontdatabase logo" id ="logo">
+<body id = "body">
+	
+	<!--scripts-->
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src = "app.js"></script>
+	<a href = "index"><img src = "images/logo.png" alt = "fontdatabase logo" id ="logo"></a>
 	<nav>
 		<ul>
-			<li><a href = "index.html">Fontdatabase</a></li>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<li><a href = "about.html">How does it work?</a></li>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<li><a href = "supportus.html">Support us!</a></li>
+			<li><a href = "index">Fontdatabase</a></li>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href = "about">How does it work?</a></li>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<li><a href = "https://www.patreon.com/themcompany" target="_blank">Support us!</a></li>
 		</ul>
 	</nav>
 
@@ -37,13 +42,18 @@
 		<p>fontdatabase is just starting! If you want to leave feedback or make a suggestion, you're more than welcome to. Feel free to use the "contact us" or twitter link below to communicate with us. You can suggest new fonts, new attributes, or whatever you have in mind.</p>
 
 		<h3>Anything else?</h3>
-		<p>Yes. We believe that if the possibility exists, most tools like this should be free to use. Which is why fontdatabase exists as an ad-free website. If you enjoy using it, and want more cool products to come, <strong>please consider <a href = "supportus.html"> supporting us</a></strong> by leaving a tip! Any amount helps cover the costs of the site and future projects, and it also helps us have more time to develop said products. Thank you!</p>
+		<p>Yes. We believe that if the possibility exists, most tools like this should be free to use. Which is why fontdatabase exists as an ad-free website. If you enjoy using it, and want more cool products to come, <strong>please consider <a href = "supportus"> supporting us</a></strong> by leaving a tip! Any amount helps cover the costs of the site and future projects, and it also helps us have more time to develop said products. Thank you!</p>
 </div>
 
-
+<div id = "footing">
 <footer>
-	<a href = "https://www.twitter.com/themcomp"><img src = "images/twitterbn.png" id = "twitter"></a> or <a href = "mailto:contactthemcompany@gmail.com">contact us.</a>
+	<a href = "https://www.twitter.com/themcomp"><img src = "images/twitterbn.png" id = "twitter"></a> or <a href = "mailto:contactthemcompany@gmail.com">contact us.</a> <p class = "madeBy"><em>Made by <a href = "https://TheMComp.com" target = "_blank">The M Company</a>.</em></p>
 </footer>
+</div>
+	<div class="modes">
+            <button type="button" onclick="night()" class="buttonForModes" id = "nightMode">Night <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+			<button type="button" onclick="original()" class="buttonForModes" id = "regularMode">Regular <img src = "images/mode.png" height = "20px" class = "mformodes">ode</button>
+     </div>
 
 </body>
 </html>
