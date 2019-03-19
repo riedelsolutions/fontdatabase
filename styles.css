@@ -239,12 +239,12 @@ select{
 }
 
 #howto a{
-	color:black;
+	color:white;
 	text-decoration: underline;
 }
 
 p strong{
-	color:black;
+	color:white;
 }
 
 #resultDiv{
@@ -265,14 +265,6 @@ p strong{
 
 #resultDiv p{
 	padding-left: 30px;
-}
-
-#but{
-	max-width: 200px;
-	margin: auto;
-	align-content: center;
-	position: relative;
-	left:20px;
 }
 
 footer{
