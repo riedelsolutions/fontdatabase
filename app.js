@@ -13,13 +13,27 @@ function night(){
             body.className='night';
             document.getElementById("regularMode").style.display = "none";
             document.getElementById("nightMode").style.display = "block";
+            document.getElementById("logo").src= "images/daymode.png"
         }
 function day(){
             body.className='day';
             document.getElementById("regularMode").style.display = "block";
             document.getElementById("nightMode").style.display = "none";
+            document.getElementById("logo").src= "images/alt.png"
 }
 
+
+//Toggle menu
+
+function toggleMenu(){
+	let propName = document.getElementsByClassName("fullNav")[0];
+	
+	if(propName.style.display =="none"){
+		propName.style.display = "block";
+	}else{
+		propName.style.display = "none";
+	}
+}
 
 //Setting up the variables
 		var fontCharacteristic;

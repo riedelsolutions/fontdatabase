@@ -28,48 +28,56 @@ h3{
 	padding-right: 20%;
 	clear: both;
 	max-width: 100%;
+	padding-bottom: 30px;
 }
 
 #logo{
 	max-width: 70px;
-	float: left;
-	padding: 15px;
+	float: right;
+	padding: 20px;
 }
 
 .burgerMenu{
-	float: right;
+	float: left;
 	padding-right: 20px;
 	padding-top:20px;
+	padding-left: 20px;
 	cursor:pointer;
+}
+
+.navContainer{
+	position: relative;
+}
+
+.fullNav{
+	display: none;
 }
 
 nav{
 	background-color: #f2f2f2;
-	border-radius: 20px;
-	max-width: 90%;
+	border-radius: 10px;
+	width: 200px;
+	max-height: 250px;
 	color:black;
 	font-size: 17px;
-	display: flex;
-	justify-content: space-around;
     padding: 10px;
     box-shadow: 10px 13px 37px -12px rgba(0,0,0,0.75);
     margin-top: 30px;
-    font-family: 'Raleway',sans-serif;
-    display:none;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    z-index: 2;
 }
 
 nav a{
 	color:black;
 }
 
-
-.toDisplay{
-	display:block;
-	z-index: 2;
+ul{
+	display: inline;
 }
 
-.toHide{
-	display: none;
+li{
+	display:list-item;
 }
 
 .night{
@@ -135,6 +143,7 @@ nav a{
 	color:white;
 }
 
+
 #regularMode{
 	border: none;
 	border-radius: 9px;
@@ -163,12 +172,10 @@ nav a{
 	margin-bottom:10px;
 }
 
-ul{
-	display: inline;
+.modes button{
+	cursor: pointer;
 }
-li{
-	display: inline;
-}
+
 
 a{
 	text-decoration: none;
@@ -221,13 +228,14 @@ select{
 	margin-right: 10px;
 	margin-left: 10px;
 	color: #f2f2f2;
+	width: 300px;
+	border-radius: 7px;
 }
 
 #howto{
 	text-align: center;
 	max-width: 70%;
 	margin: auto;
-	margin-top: 250px;
 }
 
 #howto a{
@@ -283,12 +291,6 @@ footer a{
 	text-decoration: underline;
 }
 
-select{
-	width: 300px;
-	border-radius: 7px;
-}
-
-
 #resultDiv img{
 	max-width: 170%;
 	padding-bottom: 20px;
@@ -328,7 +330,10 @@ select{
 }
 
 
-@media only screen and (max-width: 944px){
+@media only screen and (max-width: 920px){
+	.title{
+		margin-right: auto;
+	}
 }
 
 
@@ -336,7 +341,9 @@ select{
 @media only screen and (max-width: 768px){
 	.title{
 		margin: auto;
-		max-width: 70%;
+		max-width: 90%;
+		position: relative;
+		right:7%;
 	}
 
 	#userInput select{
@@ -344,18 +351,27 @@ select{
 	}
 
 	h1{
-		font-size: 40px;
+		font-size: 50px;
 	}
 	h2{
-		font-size: 17px;
+		font-size: 20px;
+	}
+
+	#logo{
+		max-width: 10%;
 	}
 }
 
 @media only screen and (max-width: 560px){
 
+	.title{
+		right: 0;
+		max-width: 70%
+	}
 	li{
 		display: flex;
 	}
+
 }
 
 @media only screen and (max-width: 600px){
