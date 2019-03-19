@@ -542,7 +542,7 @@ function day(){
 		// results(chosenArray); prints the output.
 		function results(chosenArray){ 
 
-			if (index >= chosenArray.length-1){ //if the font the user looked up is the most w/e already
+			if (index >= chosenArray.length - 1){ //if the font the user looked up is the most w/e already
 
 			noneFound();
 
@@ -554,13 +554,12 @@ function day(){
 					}
 
 				ind = 0;
-			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": "; 
-   													
+			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": ";										
    				
    			//Prints fontsMoreEtc
-   			var paragraph = document.createElement('p');	
-   			paragraph.textContent = fontsMoreEtc;
-   			document.getElementById("resultDiv").appendChild(paragraph);
+   			var resultTitle = document.createElement('h3');	
+   			resultTitle.textContent = fontsMoreEtc;
+   			document.getElementById("resultDiv").appendChild(resultTitle);
 
 
 				for (var i = 0; i < finalResArray.length; ++i) {
