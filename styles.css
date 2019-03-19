@@ -1,21 +1,17 @@
-*{
-	font-family: Open Sans, sans-serif;
-}
-
 body{
-	/* ORIGINAL :background-color: #d61353;*/
-	background-color: #a50b3e;
+	background-color: black;
+	font-family: Open Sans, sans-serif;
 }
 
 h1{
 	font-size: 80px;
-	color: #fff;
+	color: #f2f2f2;
 	font-weight: lighter;
 }
 
 h2{
 	font-size: 30px;
-	color:#000;
+	color:#f2f2f2;
 	font-weight: lighter;
 	text-align: right;
 }
@@ -40,18 +36,26 @@ h3{
 	padding: 15px;
 }
 
+.burgerMenu{
+	float: right;
+	padding-right: 20px;
+	padding-top:20px;
+	cursor:pointer;
+}
+
 nav{
 	background-color: #f2f2f2;
 	border-radius: 20px;
 	max-width: 90%;
 	color:black;
 	font-size: 17px;
-	font-weight: lighter;
 	display: flex;
 	justify-content: space-around;
     padding: 10px;
     box-shadow: 10px 13px 37px -12px rgba(0,0,0,0.75);
     margin-top: 30px;
+    font-family: 'Raleway',sans-serif;
+    display:none;
 }
 
 nav a{
@@ -69,21 +73,20 @@ nav a{
 }
 
 .night{
-            background: black;
-            color:white;
-        }
-
+    background: black;
+    color: #f2f2f2;
+}
 
 .day{
     background: #a50b3e;
-   }
+  }
 
 .night h2, .night h1, .night #interface{
 	color:white;
 }
 
 #interface select{
-	color:#ffeaf6;
+	color: #f2f2f2;
 }
 
 .night select{
@@ -135,6 +138,9 @@ nav a{
 	padding-right: 7px;
 }
 
+#regularMode select{
+}
+
 .mformodes{
 	padding-right: 1px;
 	position:relative;
@@ -181,9 +187,11 @@ p,.goButton, #resetButton{
 	padding: 20px;
 	border: none;
 	margin-left: 30px;
-	border-radius: 40px;
+	border-radius: 30px;
 	box-shadow: 11px 9px 52px -15px rgba(0,0,0,0.75);
 	color: black;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #results{
@@ -196,11 +204,12 @@ p,.goButton, #resetButton{
 select{
 	position: relative;
 	border: none;
-	background-color: #a03357;
+	background-color: #282828;
 	height: 35px;
 	text-align: center;
 	margin-right: 10px;
 	margin-left: 10px;
+	color: #f2f2f2;
 }
 
 #howto{
@@ -246,6 +255,7 @@ footer{
 	text-align: center;
 	clear:both;
 	margin-top: 130px;
+	font-size:14px;
 }
 
 .madeBy{
@@ -311,6 +321,11 @@ select{
 		margin: auto;
 		max-width: 70%;
 	}
+
+	#userInput select{
+		margin: 20px;
+	}
+
 	h1{
 		font-size: 40px;
 	}

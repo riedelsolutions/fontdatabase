@@ -9,13 +9,13 @@ function menu(){
 }
 
 //nightmode
-function original(){
-            body.className='day';
+function night(){
+            body.className='night';
             document.getElementById("regularMode").style.display = "none";
             document.getElementById("nightMode").style.display = "block";
         }
-function night(){
-            body.className='night';
+function day(){
+            body.className='day';
             document.getElementById("regularMode").style.display = "block";
             document.getElementById("nightMode").style.display = "none";
 }
