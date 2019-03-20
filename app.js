@@ -9,17 +9,31 @@ function menu(){
 }
 
 //nightmode
-function original(){
-            body.className='day';
-            document.getElementById("regularMode").style.display = "none";
-            document.getElementById("nightMode").style.display = "block";
-        }
 function night(){
             body.className='night';
+            document.getElementById("regularMode").style.display = "none";
+            document.getElementById("nightMode").style.display = "block";
+            document.getElementById("logo").src= "images/daymode.png"
+        }
+function day(){
+            body.className='day';
             document.getElementById("regularMode").style.display = "block";
             document.getElementById("nightMode").style.display = "none";
+            document.getElementById("logo").src= "images/alt.png"
 }
 
+
+//Toggle menu
+
+function toggleMenu(){
+	let propName = document.getElementsByClassName("fullNav")[0];
+	
+	if(propName.style.display =="none" || propName.style.display == ""){
+		propName.style.display = "block";
+	}else{
+		propName.style.display = "none";
+	}
+}
 
 //Setting up the variables
 		var fontCharacteristic;
@@ -542,7 +556,7 @@ function night(){
 		// results(chosenArray); prints the output.
 		function results(chosenArray){ 
 
-			if (index >= chosenArray.length-1){ //if the font the user looked up is the most w/e already
+			if (index >= chosenArray.length - 1){ //if the font the user looked up is the most w/e already
 
 			noneFound();
 
@@ -554,13 +568,12 @@ function night(){
 					}
 
 				ind = 0;
-			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": "; 
-   													
+			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": ";										
    				
    			//Prints fontsMoreEtc
-   			var paragraph = document.createElement('p');	
-   			paragraph.textContent = fontsMoreEtc;
-   			document.getElementById("resultDiv").appendChild(paragraph);
+   			var resultTitle = document.createElement('h3');	
+   			resultTitle.textContent = fontsMoreEtc;
+   			document.getElementById("resultDiv").appendChild(resultTitle);
 
 
 				for (var i = 0; i < finalResArray.length; ++i) {
