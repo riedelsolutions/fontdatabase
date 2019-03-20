@@ -28,7 +28,7 @@ function day(){
 function toggleMenu(){
 	let propName = document.getElementsByClassName("fullNav")[0];
 	
-	if(propName.style.display =="none"){
+	if(propName.style.display =="none" || propName.style.display == ""){
 		propName.style.display = "block";
 	}else{
 		propName.style.display = "none";
