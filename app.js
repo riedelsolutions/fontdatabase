@@ -579,20 +579,24 @@ function toggleMenu(){
 				for (var i = 0; i < finalResArray.length; ++i) {
   					  
   					 this["paragraph"+i] = document.createElement('p');
-  					  this["paragraph"+i].textContent = "\n";
+  					 this["paragraph"+i].textContent = "\n";
   					 document.getElementById("resultDiv").appendChild(this["paragraph"+i]);
-  					  i++;
+  					 i++;
   					 
+
+  					 var imageLink = finalResArray[i+1];
   					  this['link'+i] = document.createElement('a');
 					  this['link'+i].setAttribute('href',finalResArray[i]);
-					  this['link'+i].innerHTML = Download;
+					  //this['link'+i].innerHTML = Download;
+					  this['link'+i].innerHTML ='<img src="'+ imageLink+  '" />';
+					  console.log(this['link'+i]);
 					  document.getElementById("resultDiv").appendChild(this['link'+i]);
-					i++;
+					  i++;
+
 					  
-  					  this['image'+i] = document.createElement("IMG");
-   					  this['image'+i].setAttribute("src", finalResArray[i]);
-   					  document.getElementById("resultDiv").appendChild(this['image'+i]);
   					  
+   					  //document.getElementById("resultDiv").appendChild(this['image'+i]);
+
 
 				}
 
@@ -646,38 +650,38 @@ function toggleMenu(){
 		
 	}
 
-		function algo(){ //Change this name once I get rid of the original results function.
-		
+	function chooseResults(){ //Change this name once I get rid of the original results function.
+	
 
-			if(fontCharacteristic == "formal"){ //If the user looks for more formal fonts, we create the serious results array 
+		if(fontCharacteristic == "formal"){ //If the user looks for more formal fonts, we create the serious results array 
 
 
-				createResultsArray(seriousnessArray);
-				results(seriousnessArray);
-				
-			} else if (fontCharacteristic == "informal"){ //If the user looks for more formal fonts, we create the informal results array 
+			createResultsArray(seriousnessArray);
+			results(seriousnessArray);
+			
+		} else if (fontCharacteristic == "informal"){ //If the user looks for more formal fonts, we create the informal results array 
 
-				createResultsArray(informalArray);
-				results(informalArray);
+			createResultsArray(informalArray);
+			results(informalArray);
 
-			}else if (fontCharacteristic == "serif"){ //If the user looks for more formal fonts, we create the serif results array 
+		}else if (fontCharacteristic == "serif"){ //If the user looks for more formal fonts, we create the serif results array 
 
-				createResultsArray(serifArray);
-				results(serifArray);
-
-				
-			} else if (fontCharacteristic == "minimal"){ //If the user looks for more formal fonts, we create the sans serif results array 
-
-				createResultsArray(sansSerifArray);
-				results(sansSerifArray);
+			createResultsArray(serifArray);
+			results(serifArray);
 
 			
-			}else{
-				//nothing.
-			}
+		} else if (fontCharacteristic == "minimal"){ //If the user looks for more formal fonts, we create the sans serif results array 
+
+			createResultsArray(sansSerifArray);
+			results(sansSerifArray);
+
+		
+		}else{
+			//nothing.
+		}
 
 
-	}
+}
 
 	function resetDiv(){
 		document.getElementById("resultDiv").innerHTML = "";

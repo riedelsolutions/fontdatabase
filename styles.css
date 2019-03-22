@@ -250,10 +250,15 @@ p strong{
 	color:white;
 }
 
+/*alter thist o display: flex; flex-wrap: wrap once i make img only results with click
+on app.js*/
 #resultDiv{
+	/*original
 	text-align: left;
 	padding-left: 30px;
-	padding-top: 40px;
+	padding-top: 40px;*/
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #resultDiv h3{
