@@ -569,12 +569,15 @@ function toggleMenu(){
 
 				ind = 0;
 			var fontsMoreEtc = "Fonts more " + fontCharacteristic +  " than " + fontInput + ": ";										
-   				
+   			var downloadText = "Click/tap on the font to go to the official download link.";
    			//Prints fontsMoreEtc
    			var resultTitle = document.createElement('h3');	
    			resultTitle.textContent = fontsMoreEtc;
    			document.getElementById("resultDiv").appendChild(resultTitle);
 
+   			var downloadSubtitle = document.createElement('h6');
+   			downloadSubtitle.textContent = downloadText;
+   			document.getElementById("resultDiv").appendChild(downloadSubtitle);
 
 				for (var i = 0; i < finalResArray.length; ++i) {
   					  
@@ -587,16 +590,10 @@ function toggleMenu(){
   					 var imageLink = finalResArray[i+1];
   					  this['link'+i] = document.createElement('a');
 					  this['link'+i].setAttribute('href',finalResArray[i]);
-					  //this['link'+i].innerHTML = Download;
+					  this['link'+i].setAttribute('target', "_blank");
 					  this['link'+i].innerHTML ='<img src="'+ imageLink+  '" />';
-					  console.log(this['link'+i]);
 					  document.getElementById("resultDiv").appendChild(this['link'+i]);
 					  i++;
-
-					  
-  					  
-   					  //document.getElementById("resultDiv").appendChild(this['image'+i]);
-
 
 				}
 
